@@ -496,7 +496,7 @@
     },
     "telegramAllContacts": {
       "title": "Telegram",
-      "description": "Dùng loại tin nhắn này nếu bạn muốn gửi đợt gửi tin hàng loạt đến các liên hệ Telegram của mình."
+      "description": "Dùng loại tin nhắn này để gửi tin hàng loạt đến các liên hệ Telegram của bạn."
     },
     "tiktokActiveContacts": {
       "title": "TikTok",
@@ -535,7 +535,7 @@
     },
     "empty": {
       "title": "Chưa có đợt gửi tin hàng loạt nào",
-      "description": "Tạo đợt gửi tin hàng loạt đầu tiên để gửi tới liên hệ của bạn.",
+      "description": "Tạo đợt gửi tin hàng loạt đầu tiên để gửi tin đến khách hàng của bạn.",
       "filteredTitle": "Không có đợt gửi tin hàng loạt phù hợp",
       "filteredDescription": "Thử trạng thái khác hoặc xoá từ khoá tìm kiếm."
     },
@@ -586,8 +586,8 @@
     },
     "planLimitDialog": {
       "title": "Nâng cấp gói của bạn",
-      "sendRate": "Gói {plan} hiện tại của bạn gửi đợt gửi tin hàng loạt với tốc độ tối đa {rate} tin mỗi phút. Vui lòng nâng cấp để gửi đợt gửi tin hàng loạt nhanh hơn tới {multiplier} lần.",
-      "activeBroadcasts": "Gói {plan} hiện tại của bạn chỉ chạy {max, plural, one {# đợt gửi tin hàng loạt} other {# đợt gửi tin hàng loạt}} tại một thời điểm. Vui lòng nâng cấp để chạy nhiều đợt gửi tin hàng loạt cùng lúc."
+      "sendRate": "Gói {plan} hiện tại chỉ cho phép gửi tối đa {rate} tin nhắn mỗi phút trong các đợt gửi hàng loạt. Nâng cấp gói để tăng tốc độ gửi lên đến {multiplier} lần.",
+      "activeBroadcasts": "Gói {plan} hiện tại chỉ cho phép chạy đồng thời {max, plural, one {# đợt gửi tin hàng loạt} other {# đợt gửi tin hàng loạt}}. Nâng cấp gói để chạy nhiều đợt cùng lúc."
     },
     "sendLimit": {
       "title": "Giới hạn",
@@ -690,8 +690,8 @@
     },
     "replyTo": {
       "mentions": "Bình luận có đủ số người được nhắc tên",
-      "mentionCount": "Số người được thẻ",
-      "mentionCountDescription": "Chỉ bình luận thẻ từ số người này trở lên (@tên) mới thỏa điều kiện.",
+      "mentionCount": "Số người được gắn thẻ",
+      "mentionCountDescription": "Chỉ những bình luận gắn thẻ ít nhất số người này (@tên) mới thỏa điều kiện.",
       "mentionCountOption": "{count, plural, one {# người} other {# người}}"
     },
     "excludeKeywordsType": {
@@ -704,7 +704,7 @@
     },
     "trackUserTags": {
       "label": "Theo dõi khi người dùng gắn thẻ người khác",
-      "descriptionText": "Đếm số tài khoản được thẻ trong mỗi bình luận và cộng dồn vào tổng của khách hàng qua mọi bình luận. Dùng '{{total_tagged}}' cho tất cả tài khoản được thẻ và '{{total_new_tagged}}' cho các tài khoản chưa từng nhắn tin với trang hoặc chưa từng là khách hàng."
+      "descriptionText": "Đếm số tài khoản được gắn thẻ trong mỗi bình luận và cộng dồn vào tổng của khách hàng qua mọi bình luận. Dùng '{{total_tagged}}' cho tất cả tài khoản được gắn thẻ và '{{total_new_tagged}}' cho các tài khoản chưa từng nhắn tin với trang hoặc chưa từng là khách hàng."
     },
     "card": {
       "reply": "Trả lời"
@@ -5693,7 +5693,7 @@
       "ignoreCommentReplies": "Không trả lời các reply bình luận",
       "ignoreCommentRepliesDescription": "Bỏ qua tự động hóa với các bình luận là reply vào comment khác (không phải comment gốc).",
       "trackUserTags": "Theo dõi khi người dùng gắn thẻ người khác",
-      "trackUserTagsDescription": "Đếm số tài khoản được thẻ trong mỗi bình luận và cộng dồn vào tổng của khách hàng qua mọi bình luận. Dùng '{{total_tagged}}' cho tất cả tài khoản được thẻ và '{{total_new_tagged}}' cho các tài khoản chưa từng nhắn tin với trang hoặc chưa từng là khách hàng."
+      "trackUserTagsDescription": "Đếm số tài khoản được gắn thẻ trong mỗi bình luận và cộng dồn vào tổng của khách hàng qua mọi bình luận. Dùng '{{total_tagged}}' cho tất cả tài khoản được gắn thẻ và '{{total_new_tagged}}' cho các tài khoản chưa từng nhắn tin với trang hoặc chưa từng là khách hàng."
     },
     "hideComments": {
       "all": "Ẩn tất cả bình luận",
@@ -5801,7 +5801,7 @@
       "ignoreCommentReplies": "Không trả lời các reply bình luận",
       "ignoreCommentRepliesDescription": "Bỏ qua tự động hóa với các bình luận là reply vào comment khác (không phải comment gốc).",
       "trackUserTags": "Theo dõi khi người dùng gắn thẻ người khác",
-      "trackUserTagsDescription": "Đếm số tài khoản được thẻ trong mỗi bình luận và cộng dồn vào tổng của khách hàng qua mọi bình luận. Dùng '{{total_tagged}}' cho tất cả tài khoản được thẻ và '{{total_new_tagged}}' cho các tài khoản chưa từng nhắn tin với trang hoặc chưa từng là khách hàng."
+      "trackUserTagsDescription": "Đếm số tài khoản được gắn thẻ trong mỗi bình luận và cộng dồn vào tổng của khách hàng qua mọi bình luận. Dùng '{{total_tagged}}' cho tất cả tài khoản được gắn thẻ và '{{total_new_tagged}}' cho các tài khoản chưa từng nhắn tin với trang hoặc chưa từng là khách hàng."
     },
     "hideComments": {
       "all": "Ẩn tất cả bình luận",
@@ -8208,7 +8208,7 @@
     "deleteWithWhatsapp": "Xóa kèm kịch bản WhatsApp",
     "publicUrl": {
       "label": "URL công khai",
-      "hint": "Sao chép URL này và dán vào kịch bản, đợt gửi tin hàng loạt hoặc chuỗi tin nhắn chăm sóc. Gửi theo cách đó, mỗi câu trả lời sẽ gắn với contact đã mở link."
+      "hint": "Sao chép URL này và đưa vào kịch bản, đợt gửi tin hàng loạt hoặc chuỗi tin nhắn chăm sóc. Khi khách mở liên kết, câu trả lời của họ sẽ được gắn với đúng liên hệ."
     },
     "table": {
       "whatsapp": "WhatsApp",
