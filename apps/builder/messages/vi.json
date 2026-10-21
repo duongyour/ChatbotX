@@ -4,13 +4,13 @@
     "retry": "Thử lại",
     "copy": "Sao chép",
     "copyUrl": "Sao chép URL",
-    "chatWidget": "Chat Widget",
+    "chatWidget": "Khung trò chuyện",
     "actions": "Hành động",
     "clear": "Xóa",
     "add": "Thêm",
     "addVariable": "Thêm biến",
     "addFeature": "Thêm {feature}",
-    "addFlowReply": "Thêm phản hồi luồng",
+    "addFlowReply": "Thêm phản hồi kịch bản",
     "addMore": "Thêm nữa",
     "addTag": "Thêm thẻ",
     "addAction": "Thêm hành động",
@@ -76,7 +76,7 @@
     "selectAll": "Chọn tất cả",
     "unselect": "Bỏ chọn",
     "selectRow": "Chọn hàng",
-    "sendFlow": "Gửi luồng",
+    "sendFlow": "Gửi kịch bản",
     "sendMessage": "Gửi tin nhắn",
     "setCustomField": "Thiết lập trường tùy chỉnh",
     "synchronize": "Đồng bộ",
@@ -104,7 +104,7 @@
     "moveLater": "Di chuyển xuống sau",
     "analytics": "Phân tích",
     "deleteAnalytics": "Xóa phân tích",
-    "flowVersions": "Phiên bản luồng",
+    "flowVersions": "Phiên bản kịch bản",
     "revertToPublished": "Khôi phục về phiên bản đã xuất bản",
     "search": "Tìm kiếm",
     "pleaseSelect": "Vui lòng chọn",
@@ -135,7 +135,7 @@
     "removeAssignee": "Xóa người được gán",
     "sendMail": "Gửi thư",
     "wait": "Chờ",
-    "followUp": "Follow Up",
+    "followUp": "Theo dõi",
     "landingPage": "Trang đích",
     "generate": "Tạo",
     "regenerate": "Tạo lại",
@@ -150,7 +150,7 @@
     "clone": "Nhân bản",
     "remove": "Xóa",
     "restore": "Khôi phục",
-    "loadMore": "Load more",
+    "loadMore": "Tải thêm",
     "saveAsDraft": "Lưu nháp",
     "schedule": "Lên lịch",
     "moveToDraft": "Chuyển về nháp",
@@ -180,9 +180,9 @@
   },
   "aiAgent": {
     "defaultAgent": "Agent mặc định",
-    "description": "Quản lý và cấu hình AI Agents để nâng cao khả năng workspace của bạn với tự động hóa và phản hồi thông minh.",
-    "title": "AI Agents",
-    "name": "Agents"
+    "description": "Quản lý và cấu hình các trợ lý AI, nâng cao hiệu quả tự động hóa và trả lời thông minh trong không gian làm việc.",
+    "title": "Các trợ lý AI",
+    "name": "Trợ lý AI"
   },
   "aiAgentActions": {
     "title": "Hành động AI",
@@ -199,7 +199,7 @@
     "removeAction": "Xóa hành động",
     "moveUp": "Di chuyển hành động lên",
     "moveDown": "Di chuyển hành động xuống",
-    "flow": "Luồng",
+    "flow": "Kịch bản",
     "admin": "Quản trị viên",
     "tag": "Thẻ",
     "customField": "Trường tùy chỉnh",
@@ -211,7 +211,7 @@
       "reset": "Đặt lại"
     },
     "actionTypes": {
-      "sendFlow": "Gửi luồng",
+      "sendFlow": "Gửi kịch bản",
       "assignConversation": "Gán cuộc trò chuyện",
       "removeAssignment": "Bỏ gán cuộc trò chuyện",
       "transferToHuman": "Chuyển cho người phụ trách",
@@ -228,16 +228,16 @@
   },
   "aiFiles": {
     "description": "Cho phép Agents của bạn truy cập PDF, Docs và nhiều hơn nữa",
-    "title": "Knowledge",
+    "title": "Kho kiến thức",
     "noEmbeddingProvider": "Chưa cấu hình nhà cung cấp embedding. Tính năng AI File yêu cầu tích hợp OpenAI hoặc Gemini. DeepSeek và Claude không hỗ trợ mô hình embedding."
   },
   "aiFunctions": {
     "description": "Cấu hình các chức năng LLM để làm cho AI agent thông minh hơn",
-    "title": "AI Functions"
+    "title": "Các hàm AI"
   },
   "aiMcpServers": {
     "description": "Kết nối AI với các hệ thống bên ngoài qua MCP",
-    "title": "MCP Servers",
+    "title": "Máy chủ MCP",
     "tools": {
       "label": "Công cụ có sẵn"
     }
@@ -346,7 +346,7 @@
   "flowAnalytics": {
     "nodes": {
       "start": "Bắt đầu",
-      "notFound": "Không tìm thấy node"
+      "notFound": "Không tìm thấy bước"
     },
     "stats": {
       "sent": "Đã gửi",
@@ -424,7 +424,7 @@
     }
   },
   "broadcasts": {
-    "title": "Phát sóng",
+    "title": "Gửi tin hàng loạt",
     "status": {
       "scheduled": "Đã lên lịch",
       "sent": "Hoàn thành",
@@ -474,7 +474,7 @@
     },
     "allContacts": {
       "title": "Tất cả liên hệ",
-      "description": "Gửi luồng đến tất cả liên hệ."
+      "description": "Gửi kịch bản đến tất cả liên hệ."
     },
     "receiversCount": "Người nhận: {count}",
     "receiversLoading": "Người nhận: Đang tải...",
@@ -496,28 +496,28 @@
     },
     "telegramAllContacts": {
       "title": "Telegram",
-      "description": "Dùng loại tin nhắn này nếu bạn muốn gửi broadcast đến các liên hệ Telegram của mình."
+      "description": "Dùng loại tin nhắn này để gửi tin hàng loạt đến các liên hệ Telegram của bạn."
     },
     "tiktokActiveContacts": {
       "title": "TikTok",
-      "description": "Có thể chứa khuyến mãi và chỉ được gửi cho người dùng đã nhắn tin cho bot của bạn trong vòng 24 giờ qua. Broadcast TikTok chỉ hỗ trợ văn bản và hình ảnh."
+      "description": "Có thể chứa khuyến mãi và chỉ được gửi cho người dùng đã nhắn tin cho bot của bạn trong vòng 24 giờ qua. Đợt gửi tin hàng loạt TikTok chỉ hỗ trợ văn bản và hình ảnh."
     },
     "flowType": {
       "flow": {
-        "title": "Luồng",
-        "description": "Gửi luồng đến các liên hệ của bạn"
+        "title": "Kịch bản",
+        "description": "Gửi kịch bản đến các liên hệ của bạn"
       },
       "template": {
-        "title": "Template",
-        "description": "Gửi template đến các liên hệ của bạn"
+        "title": "Mẫu tin nhắn",
+        "description": "Gửi mẫu tin nhắn đến các liên hệ của bạn"
       }
     },
     "detail": {
-      "title": "Chi tiết phát sóng",
+      "title": "Chi tiết gửi tin hàng loạt",
       "subaction": "Hành động con",
       "audienceFilter": "Bộ lọc người nhận",
       "noAudienceFilter": "Không có bộ lọc người nhận",
-      "template": "Template",
+      "template": "Mẫu tin nhắn",
       "integration": "Tích hợp",
       "schedule": "Lịch lặp lại",
       "runOf": "Lần gửi của <link>{name}</link>"
@@ -534,18 +534,18 @@
       "expand": "Mở bảng lọc"
     },
     "empty": {
-      "title": "Chưa có broadcast nào",
-      "description": "Tạo broadcast đầu tiên để gửi tới liên hệ của bạn.",
-      "filteredTitle": "Không có broadcast phù hợp",
+      "title": "Chưa có đợt gửi tin hàng loạt nào",
+      "description": "Tạo đợt gửi tin hàng loạt đầu tiên để gửi tin đến khách hàng của bạn.",
+      "filteredTitle": "Không có đợt gửi tin hàng loạt phù hợp",
       "filteredDescription": "Thử trạng thái khác hoặc xoá từ khoá tìm kiếm."
     },
     "scheduleDialog": {
-      "title": "Lên lịch broadcast",
+      "title": "Lên lịch đợt gửi tin hàng loạt",
       "description": "Chọn thời điểm gửi \"{name}\"."
     },
     "deleteDialog": {
-      "title": "{count, plural, one {Xoá broadcast} other {Xoá các broadcast}}",
-      "description": "{count, plural, one {\"{name}\" sẽ bị xoá. Dữ liệu sẽ được xoá ở nền.} other {# broadcast sẽ bị xoá. Dữ liệu của chúng sẽ được xoá ở nền.}}",
+      "title": "{count, plural, one {Xoá đợt gửi tin hàng loạt} other {Xoá các đợt gửi tin hàng loạt}}",
+      "description": "{count, plural, one {\"{name}\" sẽ bị xoá. Dữ liệu sẽ được xoá ở nền.} other {# đợt gửi tin hàng loạt sẽ bị xoá. Dữ liệu của chúng sẽ được xoá ở nền.}}",
       "partial": "Đã xoá {deleted}/{requested} — số còn lại đã đổi trạng thái"
     },
     "calendar": {
@@ -560,8 +560,8 @@
       },
       "previous": "Trước",
       "next": "Sau",
-      "emptyDay": "Không có broadcast nào trong ngày này",
-      "emptyRange": "Không có broadcast nào trong khoảng này",
+      "emptyDay": "Không có đợt gửi tin hàng loạt nào trong ngày này",
+      "emptyRange": "Không có đợt gửi tin hàng loạt nào trong khoảng này",
       "jumpToDate": "Đi tới ngày"
     },
     "fields": {
@@ -574,20 +574,20 @@
       "templateDescription": "\"{name}\" được tạm dừng và chuyển về bản nháp để bạn đổi lịch."
     },
     "stopDialog": {
-      "title": "Dừng broadcast",
+      "title": "Dừng đợt gửi tin hàng loạt",
       "description": "Các tin nhắn còn lại của \"{name}\" sẽ dừng trong khoảng một phút. Một vài tin đã được chuyển cho kênh gửi có thể vẫn được gửi đi. Bạn có thể tiếp tục sau — chỉ những người chưa nhận sẽ nhận được tin.",
-      "templateTitle": "Tạm dừng broadcast lặp lại",
+      "templateTitle": "Tạm dừng đợt gửi tin hàng loạt lặp lại",
       "templateDescription": "\"{name}\" sẽ ngừng tạo lần gửi mới. Lần gửi đang chạy vẫn tiếp tục. Bạn có thể tiếp tục sau; các lần gửi trong thời gian tạm dừng sẽ bị bỏ qua."
     },
     "resumeDialog": {
-      "title": "Tiếp tục broadcast",
+      "title": "Tiếp tục đợt gửi tin hàng loạt",
       "description": "\"{name}\" sẽ tiếp tục gửi đến những người nhận chưa nhận được tin.",
       "templateDescription": "\"{name}\" sẽ lặp lại trở lại từ lần gửi theo lịch tiếp theo. Các lần gửi trong thời gian tạm dừng đã bị bỏ qua."
     },
     "planLimitDialog": {
       "title": "Nâng cấp gói của bạn",
-      "sendRate": "Gói {plan} hiện tại của bạn gửi broadcast với tốc độ tối đa {rate} tin mỗi phút. Vui lòng nâng cấp để gửi broadcast nhanh hơn tới {multiplier} lần.",
-      "activeBroadcasts": "Gói {plan} hiện tại của bạn chỉ chạy {max, plural, one {# broadcast} other {# broadcast}} tại một thời điểm. Vui lòng nâng cấp để chạy nhiều broadcast cùng lúc."
+      "sendRate": "Gói {plan} hiện tại chỉ cho phép gửi tối đa {rate} tin nhắn mỗi phút trong các đợt gửi hàng loạt. Nâng cấp gói để tăng tốc độ gửi lên đến {multiplier} lần.",
+      "activeBroadcasts": "Gói {plan} hiện tại chỉ cho phép chạy đồng thời {max, plural, one {# đợt gửi tin hàng loạt} other {# đợt gửi tin hàng loạt}}. Nâng cấp gói để chạy nhiều đợt cùng lúc."
     },
     "sendLimit": {
       "title": "Giới hạn",
@@ -609,7 +609,7 @@
       "noUpcomingSends": "Không còn lần gửi nào — các ngày còn lại đã được bỏ qua"
     },
     "runs": {
-      "back": "Broadcast lặp lại",
+      "back": "Đợt gửi tin hàng loạt lặp lại",
       "pausedNotice": "Đã tạm dừng từ {when}. Các lần gửi trong thời gian tạm dừng bị bỏ qua.",
       "groupBy": "Nhóm theo",
       "grouping": {
@@ -634,11 +634,11 @@
       "reasons": {
         "catchUpSuperseded": "hệ thống gặp sự cố; lần gửi sau đã được gửi thay thế",
         "paused": "lịch đang tạm dừng",
-        "draft": "broadcast đang được chỉnh sửa",
+        "draft": "đợt gửi tin hàng loạt đang được chỉnh sửa",
         "blockedOwner": "tài khoản đang bị chặn",
         "planLimit": "đã đạt giới hạn gói",
         "noTargets": "không có trang để gửi",
-        "undeliverable": "flow hoặc mẫu tin không khả dụng",
+        "undeliverable": "kịch bản hoặc mẫu tin không khả dụng",
         "excludedDate": "Ngày bị bỏ qua"
       },
       "outcomes": {
@@ -690,8 +690,8 @@
     },
     "replyTo": {
       "mentions": "Bình luận có đủ số người được nhắc tên",
-      "mentionCount": "Số người được tag",
-      "mentionCountDescription": "Chỉ bình luận tag từ số người này trở lên (@tên) mới thỏa điều kiện.",
+      "mentionCount": "Số người được gắn thẻ",
+      "mentionCountDescription": "Chỉ những bình luận gắn thẻ ít nhất số người này (@tên) mới thỏa điều kiện.",
       "mentionCountOption": "{count, plural, one {# người} other {# người}}"
     },
     "excludeKeywordsType": {
@@ -704,12 +704,12 @@
     },
     "trackUserTags": {
       "label": "Theo dõi khi người dùng gắn thẻ người khác",
-      "descriptionText": "Đếm số tài khoản được tag trong mỗi bình luận và cộng dồn vào tổng của khách hàng qua mọi bình luận. Dùng '{{total_tagged}}' cho tất cả tài khoản được tag và '{{total_new_tagged}}' cho các tài khoản chưa từng nhắn tin với trang hoặc chưa từng là khách hàng."
+      "descriptionText": "Đếm số tài khoản được gắn thẻ trong mỗi bình luận và cộng dồn vào tổng của khách hàng qua mọi bình luận. Dùng '{{total_tagged}}' cho tất cả tài khoản được gắn thẻ và '{{total_new_tagged}}' cho các tài khoản chưa từng nhắn tin với trang hoặc chưa từng là khách hàng."
     },
     "card": {
       "reply": "Trả lời"
     },
-    "liveBadge": "Live",
+    "liveBadge": "Trực tiếp",
     "postTypeDialog": {
       "title": "Chọn loại bài viết"
     },
@@ -747,7 +747,7 @@
       "country": "Quốc gia",
       "continent": "Lục địa",
       "gender": "Giới tính",
-      "subscribedToBroadcast": "Đã đăng ký phát sóng",
+      "subscribedToBroadcast": "Đã đăng ký gửi tin hàng loạt",
       "contactCreatedDate": "Ngày tạo liên hệ",
       "contactCreatedDateMinutesAgo": "Ngày tạo liên hệ (phút trước)",
       "source": "Nguồn",
@@ -783,14 +783,14 @@
       "tags": "Thẻ",
       "customFields": "Trường tùy chỉnh",
       "phone": "Số điện thoại",
-      "completedWhatsAppFlows": "WhatsApp Flow đã hoàn tất",
+      "completedWhatsAppFlows": "Các kịch bản WhatsApp đã hoàn tất",
       "messengerList": "Danh sách Messenger",
       "subscribedToDripCampaign": "Đã đăng ký drip campaign",
       "conversationAssigned": "Cuộc trò chuyện đã gán",
       "entryPointsLinks": "Liên kết điểm vào",
       "sentMessage": "Đã gửi tin nhắn",
       "keywordsReceived": "Từ khóa đã nhận",
-      "executedFlow": "Đã thực thi luồng",
+      "executedFlow": "Đã thực thi kịch bản",
       "executedStep": "Đã thực thi bước",
       "consecutiveAiFailures": "Số lần AI lỗi liên tiếp",
       "questionnaireStarted": "Bảng câu hỏi đã bắt đầu",
@@ -807,11 +807,11 @@
       "email": "Email",
       "phoneWasVerified": "Số điện thoại đã xác minh",
       "optedInForSms": "Đã đăng ký SMS",
-      "broadcastSent": "Broadcast đã gửi",
-      "broadcastDelivered": "Broadcast đã giao",
-      "broadcastSeen": "Broadcast đã xem",
-      "broadcastClicked": "Broadcast đã nhấn",
-      "broadcastFailed": "Broadcast thất bại",
+      "broadcastSent": "Đã gửi tin hàng loạt",
+      "broadcastDelivered": "Tin hàng loạt đã phát tới người nhận",
+      "broadcastSeen": "Tin hàng loạt đã được xem",
+      "broadcastClicked": "Tin hàng loạt đã được nhấp",
+      "broadcastFailed": "Gửi tin hàng loạt thất bại",
       "emailWasVerified": "Email đã xác minh",
       "optedInForEmail": "Đã đăng ký Email",
       "emailSent": "Email đã gửi",
@@ -863,11 +863,11 @@
       "instagram": "Instagram",
       "analytics": "Phân tích",
       "facebookInstagramComment": "Bình luận Facebook/Instagram",
-      "broadcastWhatsapp": "Broadcast (WhatsApp)",
+      "broadcastWhatsapp": "Gửi tin hàng loạt (WhatsApp)",
       "systemTime": "Thời gian hệ thống",
       "ecommerce": "Thương mại điện tử",
       "systemFields": "Trường hệ thống",
-      "topicCoupon": "Topic coupon",
+      "topicCoupon": "Chủ đề mã ưu đãi",
       "leaderboard": "Điểm xếp hạng",
       "customFields": "Trường tùy chỉnh",
       "botFields": "Trường bot",
@@ -902,13 +902,13 @@
       "direct": "Trực tiếp",
       "comments": "Bình luận",
       "ads": "Quảng cáo",
-      "fbLeadAd": "FB Lead Ad",
+      "fbLeadAd": "Quảng cáo thu thập khách hàng Facebook",
       "inboundMessage": "Tin nhắn đến",
       "imported": "Đã nhập",
       "api": "API",
-      "webchat": "Webchat",
+      "webchat": "Chat trên web",
       "botLink": "Liên kết bot",
-      "chatPlugin": "C. chat plugin",
+      "chatPlugin": "Tiện ích trò chuyện",
       "inboundWebhook": "Webhook đến"
     },
     "ctwaRetarget": {
@@ -1053,7 +1053,7 @@
       "permissionRequired": "Bạn cần là quản trị viên cấp cao để thay đổi quyền truy cập hỗ trợ nền tảng.",
       "enabledToast": "Đã bật quyền truy cập hỗ trợ nền tảng.",
       "disabledToast": "Đã tắt quyền truy cập hỗ trợ nền tảng.",
-      "consentDisabled": "Platform support access is available to platform administrators without this setting.",
+      "consentDisabled": "Quản trị viên nền tảng có quyền truy cập hỗ trợ mà không cần bật cài đặt này.",
       "toggleError": "Đã xảy ra lỗi. Vui lòng thử lại."
     }
   },
@@ -1105,7 +1105,7 @@
     },
     "telegram": {
       "label": "Telegram",
-      "botToken": "Bot Token",
+      "botToken": "Mã token bot",
       "connectInstructions": {
         "step1": "Mở <link>@BotFather</link> trong Telegram.",
         "step2": "Gửi <strong>/newbot</strong> và làm theo hướng dẫn.",
@@ -1171,7 +1171,7 @@
     },
     "marketingFeatures": {
       "label": "Tính năng marketing",
-      "description": "A list of product features that will be visible to customers. Displayed in pricing tables."
+      "description": "Danh sách tính năng sản phẩm hiển thị cho khách hàng trong bảng giá."
     },
     "notificationType": {
       "label": "Loại thông báo",
@@ -1196,17 +1196,17 @@
       "label": "Đại lý"
     },
     "aiAgent": {
-      "label": "AI Agent",
-      "loadError": "Không thể tải danh sách AI Agent. Vui lòng thử lại."
+      "label": "Trợ lý AI",
+      "loadError": "Không thể tải danh sách trợ lý AI. Vui lòng thử lại."
     },
     "aiQueuedMessages": {
       "label": "Tin nhắn chờ AI"
     },
     "aiFile": {
-      "label": "AI File"
+      "label": "Tệp kiến thức AI"
     },
     "aiFunction": {
-      "label": "AI Function"
+      "label": "Hàm AI"
     },
     "alphanumericLength": {
       "label": "Độ dài chữ số"
@@ -1252,7 +1252,7 @@
       "label": "Ảnh động"
     },
     "minigame": {
-      "label": "Minigame"
+      "label": "Trò chơi nhỏ"
     },
     "savePayloadToCustomField": {
       "label": "Lưu payload vào trường tùy chỉnh"
@@ -1268,10 +1268,10 @@
       "label": "Màu thương hiệu"
     },
     "broadcast": {
-      "label": "Phát sóng"
+      "label": "Gửi tin hàng loạt"
     },
     "trigger": {
-      "label": "Trigger"
+      "label": "Điều kiện kích hoạt"
     },
     "webhook": {
       "label": "Webhook"
@@ -1290,7 +1290,7 @@
       "label": "Đã hoàn thành"
     },
     "workspace": {
-      "label": "Workspace"
+      "label": "Không gian làm việc"
     },
     "workspaceId": {
       "description": "Định danh duy nhất cho workspace của bạn.",
@@ -1313,7 +1313,7 @@
       "label": "Câu mở đầu cuộc trò chuyện{plural, select, 1 {} other {}}",
       "type": {
         "openWebsite": "Mở trang web",
-        "sendFlow": "Gửi luồng",
+        "sendFlow": "Gửi kịch bản",
         "sendText": "Gửi văn bản"
       }
     },
@@ -1364,11 +1364,11 @@
     },
     "defaultReply": {
       "description": "Đây là phản hồi mặc định mà workspace của bạn sẽ gửi cho người dùng khi workspace không biết cách trả lời tin nhắn của người dùng.",
-      "label": "Trả lời mặc định"
+      "label": "Tin nhắn mặc định"
     },
     "defaultReplyFrequency": {
-      "description": "Kiểm soát tần suất luồng Trả lời mặc định có thể được kích hoạt cho cùng một liên hệ trên một kênh.",
-      "label": "Tần suất trả lời mặc định",
+      "description": "Kiểm soát tần suất kích hoạt kịch bản Tin nhắn mặc định cho cùng một khách hàng trên một kênh.",
+      "label": "Tần suất kích hoạt tin nhắn mặc định",
       "options": {
         "allTime": "Mọi lúc",
         "oncePerHour": "Một lần mỗi 1h",
@@ -1454,10 +1454,10 @@
       "channelId": "ID kênh"
     },
     "flow": {
-      "label": "Luồng"
+      "label": "Kịch bản"
     },
     "flowId": {
-      "label": "ID Luồng"
+      "label": "ID Kịch bản"
     },
     "flows": {
       "aiGenerateText": "{aiName}: Tạo văn bản",
@@ -1467,14 +1467,14 @@
       "aiExtractData": "{aiName}: Trích xuất dữ liệu",
       "aiSpeechToText": "{aiName}: Chuyển giọng nói thành văn bản",
       "aiTextToSpeech": "{aiName}: Chuyển văn bản thành giọng nói",
-      "label": "Luồng",
-      "placeholder": "Chọn luồng",
+      "label": "Kịch bản",
+      "placeholder": "Chọn kịch bản",
       "aiGenerateTextAgent": "{aiName}: Tạo văn bản Agent",
       "aiDeleteMessageHistory": "{aiName}: Xóa lịch sử tin nhắn"
     },
     "steps": {
-      "label": "Node",
-      "placeholder": "Chọn node"
+      "label": "Bước",
+      "placeholder": "Chọn bước"
     },
     "folder": {
       "label": "Thư mục"
@@ -1562,7 +1562,7 @@
     },
     "isRichResponse": {
       "description": "Trả về JSON có cấu trúc gồm tin nhắn và hành động thay vì stream văn bản thuần.",
-      "label": "Rich Response"
+      "label": "Phản hồi có định dạng phong phú"
     },
     "language": {
       "description": "Liên hệ được gán ngôn ngữ mặc định khi ngôn ngữ liên hệ không xác định.",
@@ -1605,10 +1605,10 @@
       "label": "Token tối đa"
     },
     "mcpServer": {
-      "label": "MCP Server"
+      "label": "Máy chủ MCP"
     },
     "template": {
-      "label": "Template"
+      "label": "Bản mẫu"
     },
     "systemFunction": {
       "label": "Hàm hệ thống",
@@ -1674,8 +1674,8 @@
       "placeholder": "https://api.example.com/endpoint"
     },
     "requestHeaders": {
-      "label": "Headers",
-      "keyPlaceholder": "Header",
+      "label": "Tiêu đề yêu cầu",
+      "keyPlaceholder": "Tiêu đề",
       "valuePlaceholder": "Giá trị"
     },
     "requestBody": {
@@ -1688,7 +1688,7 @@
       "options": {
         "allContactData": "Toàn bộ dữ liệu liên hệ",
         "json": "JSON",
-        "formEncoded": "Form Encoded"
+        "formEncoded": "Dữ liệu biểu mẫu mã hóa"
       }
     },
     "statusCode": {
@@ -1709,7 +1709,7 @@
       "label": "Menu cố định{plural, select, 1 {} other {}}",
       "type": {
         "openWebsite": "Mở trang web",
-        "sendFlow": "Gửi luồng"
+        "sendFlow": "Gửi kịch bản"
       }
     },
     "userPersistentMenu": {
@@ -1732,7 +1732,7 @@
       "placeholder": "Chọn nhà cung cấp"
     },
     "prompt": {
-      "label": "Prompt",
+      "label": "Câu lệnh AI",
       "placeholder": "Nhập prompt"
     },
     "userMessage": {
@@ -1818,9 +1818,9 @@
       "label": "Trạng thái",
       "pending": "Đang chờ",
       "processing": "Đang xử lý",
-      "installing": "Installing",
+      "installing": "Đang cài đặt",
       "completed": "Hoàn tất",
-      "partial": "Partial",
+      "partial": "Một phần",
       "failed": "Thất bại",
       "success": "Thành công",
       "error": "Lỗi"
@@ -1884,8 +1884,8 @@
       "placeholder": "Chọn công cụ"
     },
     "triggerFlowId": {
-      "label": "ID Luồng kích hoạt",
-      "placeholder": "Luồng nào được kích hoạt?"
+      "label": "ID Kịch bản kích hoạt",
+      "placeholder": "Kịch bản nào được kích hoạt?"
     },
     "type": {
       "label": "Loại",
@@ -1949,11 +1949,11 @@
       "label": "ID WABA"
     },
     "webchat": {
-      "label": "Webchat"
+      "label": "Chat trên web"
     },
     "welcomeFlowId": {
       "description": "Tin nhắn chào mừng được gửi tự động khi người dùng mở webchat của bạn.",
-      "label": "Luồng chào mừng"
+      "label": "Kịch bản chào mừng"
     },
     "whatsapp": {
       "label": "WhatsApp"
@@ -1968,7 +1968,7 @@
       "label": "Viber BM"
     },
     "voice": {
-      "label": "Voice"
+      "label": "Giọng nói"
     },
     "googleBm": {
       "label": "Google BM"
@@ -1977,7 +1977,7 @@
       "label": "Trang đích"
     },
     "whatsappFlow": {
-      "label": "Luồng WhatsApp"
+      "label": "Kịch bản WhatsApp"
     },
     "shortText": {
       "label": "Văn bản ngắn",
@@ -1994,7 +1994,7 @@
       "label": "Ngày giờ"
     },
     "boolean": {
-      "label": "Boolean",
+      "label": "Giá trị đúng/sai",
       "placeholder": "Chọn đúng hoặc sai",
       "true": "Đúng",
       "false": "Sai"
@@ -2024,11 +2024,11 @@
       "label": "Quyền",
       "superAdmin": "Siêu quản trị viên",
       "analytics": "Phân tích",
-      "flows": "Luồng",
+      "flows": "Kịch bản",
       "contacts": "Liên hệ / Hộp thư",
       "onlyAssignedContacts": "Chỉ liên hệ được gán",
       "emailAndPhone": "Email và Số điện thoại",
-      "broadcast": "Phát sóng",
+      "broadcast": "Gửi tin hàng loạt",
       "ecommerce": "Thương mại điện tử"
     },
     "member": {
@@ -2188,7 +2188,7 @@
       "label": "Khoảng tùy chỉnh"
     },
     "templateId": {
-      "label": "WhatsApp Template",
+      "label": "Mẫu tin nhắn WhatsApp",
       "placeholder": "Chọn mẫu"
     },
     "whatsappChannel": {
@@ -2216,7 +2216,7 @@
       "label": "Chăm sóc"
     },
     "annualPrice": {
-      "label": "Annual Price"
+      "label": "Giá theo năm"
     },
     "apiVersion": {
       "label": "API Version"
@@ -2225,7 +2225,7 @@
       "label": "Business ID"
     },
     "businessName": {
-      "label": "Business Name"
+      "label": "Tên doanh nghiệp"
     },
     "clientId": {
       "label": "Client ID"
@@ -2240,11 +2240,11 @@
       "label": "App Config ID"
     },
     "currency": {
-      "label": "Currency"
+      "label": "Đơn vị tiền tệ"
     },
     "freeTrial": {
-      "label": "Free Trial",
-      "suffix": "days"
+      "label": "Dùng thử miễn phí",
+      "suffix": "ngày"
     },
     "from": {
       "label": "Từ"
@@ -2254,34 +2254,34 @@
       "placeholder": "noreply@example.com"
     },
     "limitContacts": {
-      "label": "Maximum of Contacts"
+      "label": "Số lượng khách hàng tối đa"
     },
     "messageTemplate": {
-      "label": "Message Template"
+      "label": "Mẫu tin nhắn"
     },
     "plan": {
-      "label": "Plan"
+      "label": "Gói dịch vụ"
     },
     "preheader": {
-      "label": "Preheader"
+      "label": "Dòng xem trước email"
     },
     "price": {
-      "label": "Price"
+      "label": "Giá"
     },
     "pricing": {
-      "label": "Pricing"
+      "label": "Bảng giá"
     },
     "publishableKey": {
-      "label": "Publishable Key"
+      "label": "Khóa công khai"
     },
     "role": {
-      "label": "Role"
+      "label": "Vai trò"
     },
     "secretKey": {
-      "label": "Secret Key"
+      "label": "Khóa bí mật"
     },
     "subject": {
-      "label": "Subject"
+      "label": "Tiêu đề"
     },
     "systemUserId": {
       "label": "System User ID"
@@ -2299,9 +2299,9 @@
       "label": "Webhook Verify Token"
     },
     "magicLink": {
-      "label": "Magic Link",
-      "nameHint": "Appended after /r/{workspaceId}/ in the public tracking URL. Use letters, numbers, underscore, and hyphen only.",
-      "urlHint": "Use double braces in the URL, e.g. https://example.com/page?utm_campaign='{{campaign}}'. Values come from the tracking link query string."
+      "label": "Liên kết theo dõi",
+      "nameHint": "Được thêm vào sau /r/{workspaceId}/ trong URL theo dõi công khai. Chỉ sử dụng chữ cái, số, dấu gạch dưới và dấu gạch ngang.",
+      "urlHint": "Dùng dấu ngoặc nhọn kép trong URL, ví dụ https://example.com/page?utm_campaign='{{campaign}}'. Các giá trị được lấy từ chuỗi truy vấn của liên kết theo dõi."
     },
     "appId": {
       "label": "App ID"
@@ -2375,7 +2375,7 @@
     },
     "tiktok": {
       "label": "TikTok",
-      "accessToken": "Access Token",
+      "accessToken": "Token truy cập",
       "openId": "Open ID",
       "clientId": "Client ID",
       "clientSecret": "Client Secret",
@@ -2386,7 +2386,7 @@
         "step2": "Cấp quyền tài khoản và sao chép <strong>access token</strong>, <strong>open ID</strong> và <strong>client secret</strong>.",
         "step3": "Dán thông tin xác thực bên dưới để kết nối."
       },
-      "commentToMessage": "Comment-to-Message",
+      "commentToMessage": "Chuyển bình luận thành tin nhắn",
       "commentToMessageDescription": "Cho phép tài khoản này trả lời bình luận có ý định mua cao bằng tin nhắn riêng. Bắt buộc với automation bình luận TikTok dùng trả lời riêng.",
       "commentToMessageEligibility": "Chỉ áp dụng cho Business Account đăng ký tại Việt Nam, Indonesia hoặc Thái Lan, chủ tài khoản trên 18 tuổi, đã đăng ký kinh doanh hoặc đã chạy Messaging Ads, và đặt quyền nhắn tin thành \"Requests\".",
       "commentToMessageUnknown": "Chưa kiểm tra với TikTok — bấm làm mới để đọc trạng thái hiện tại."
@@ -2559,7 +2559,7 @@
       "contacts": "Liên hệ",
       "inbox": "Hộp thư đến",
       "automation": "Tự động hóa",
-      "broadcasts": "Phát sóng",
+      "broadcasts": "Gửi tin hàng loạt",
       "analytics": "Phân tích",
       "ecommerce": "Thương mại điện tử",
       "channels": "Kênh",
@@ -2569,11 +2569,11 @@
       "media": "Phương tiện",
       "ads": "Quảng cáo",
       "settings": "Cài đặt",
-      "miniApps": "Mini Apps",
+      "miniApps": "Ứng dụng nhỏ",
       "leaderboards": "Bảng xếp hạng"
     },
     "adReferral": {
-      "label": "Ads",
+      "label": "Quảng cáo",
       "ctwa": "CTWA",
       "ctm": "CTM",
       "ctid": "CTID",
@@ -2582,7 +2582,7 @@
       "googleAdsMessenger": "GA CCTM"
     },
     "adSource": {
-      "label": "Ad source"
+      "label": "Nguồn quảng cáo"
     },
     "manualAppSecret": {
       "label": "Meta App Secret (tuỳ chọn)",
@@ -2626,15 +2626,15 @@
       "label": "Hình ảnh"
     },
     "miniApp": {
-      "label": "Mini App"
+      "label": "Ứng dụng nhỏ"
     }
   },
   "flows": {
     "export": {
-      "notPublished": "Luồng này chưa từng được xuất bản. Hãy xuất bản trước khi xuất tệp.",
+      "notPublished": "Kịch bản này chưa từng được xuất bản. Hãy xuất bản trước khi xuất tệp.",
       "failed": "Xuất tệp thất bại. Vui lòng thử lại."
     },
-    "title": "Luồng",
+    "title": "Kịch bản",
     "quickReplies": {
       "limitReached": "Đã đạt giới hạn trả lời nhanh ({max})."
     },
@@ -2697,14 +2697,14 @@
       "appointmentScheduling": "Đặt lịch hẹn",
       "autoAssignConversation": "Tự động gán cuộc trò chuyện",
       "blockContact": "Chặn liên hệ",
-      "broadcastActions": "Hành động phát sóng",
+      "broadcastActions": "Hành động gửi tin hàng loạt",
       "callApi": "Yêu cầu bên ngoài",
       "make": "Make",
-      "triggerN8n": "Trigger n8n",
-      "triggers": "Trigger",
+      "triggerN8n": "Kích hoạt n8n",
+      "triggers": "Điều kiện kích hoạt",
       "questionnaires": "Bảng câu hỏi",
-      "setUpCoupon": "Thiết lập Coupon",
-      "markCouponUsed": "Đánh dấu Coupon đã dùng",
+      "setUpCoupon": "Thiết lập mã ưu đãi",
+      "markCouponUsed": "Đánh dấu mã ưu đãi đã sử dụng",
       "executeJavascript": "Thực thi JavaScript",
       "chooseChannel": "Chọn kênh",
       "clearCustomField": "Xóa trường tùy chỉnh",
@@ -2713,7 +2713,7 @@
       "countCharacters": "Đếm ký tự",
       "deleteContact": "Xóa liên hệ",
       "emailActions": "Hành động email",
-      "flowActions": "Hành động luồng",
+      "flowActions": "Hành động trong kịch bản",
       "followConversation": "Theo dõi cuộc trò chuyện",
       "formatDate": "Định dạng ngày",
       "generateCode": "Tạo mã",
@@ -2721,7 +2721,7 @@
       "inboxActions": "Hành động hộp thư",
       "markEmailVerified": "Đánh dấu email đã xác minh",
       "activeCampaignSyncContact": "Thêm liên hệ vào ActiveCampaign",
-      "facebookCustomAudience": "Facebook Custom Audience",
+      "facebookCustomAudience": "Tệp khách hàng tùy chỉnh Facebook",
       "mailchimpAddMember": "Thêm liên hệ vào MailChimp",
       "mailerLiteAddSubscriber": "Thêm liên hệ vào MailerLite",
       "klaviyoSyncProfile": "Thêm liên hệ vào Klaviyo",
@@ -2742,7 +2742,7 @@
       "updateMessengerContactData": "Cập nhật dữ liệu liên hệ",
       "sendAudio": "Gửi âm thanh",
       "sendCard": "Gửi thẻ",
-      "sendExternalFlow": "Gửi luồng bên ngoài",
+      "sendExternalFlow": "Gửi kịch bản bên ngoài",
       "sendExternalNode": "Gửi nút bên ngoài",
       "sendFile": "Gửi tệp",
       "sendGif": "Gửi Gif",
@@ -2757,10 +2757,10 @@
       "setCustomField": "Thiết lập trường tùy chỉnh",
       "startAnotherNode": "Bắt đầu nút khác",
       "openMiniApp": "Mở Mini App",
-      "startExternalFlow": "Bắt đầu luồng bên ngoài",
+      "startExternalFlow": "Bắt đầu kịch bản bên ngoài",
       "startExternalNode": "Bắt đầu nút bên ngoài",
-      "startFlow": "Bắt đầu luồng",
-      "subscribeBroadcast": "Đăng ký phát sóng",
+      "startFlow": "Bắt đầu kịch bản",
+      "subscribeBroadcast": "Đăng ký gửi tin hàng loạt",
       "tools": "Công cụ",
       "transferConversationToBot": "Chuyển cuộc trò chuyện cho bot",
       "transferConversationToHuman": "Chuyển cuộc trò chuyện cho người",
@@ -2769,7 +2769,7 @@
       "markConversationAsUnread": "Đánh dấu cuộc trò chuyện là chưa đọc",
       "markConversationAsRead": "Đánh dấu cuộc trò chuyện là đã đọc",
       "unfollowConversation": "Bỏ theo dõi cuộc trò chuyện",
-      "unsubscribeBroadcast": "Hủy đăng ký phát sóng",
+      "unsubscribeBroadcast": "Hủy đăng ký gửi tin hàng loạt",
       "getUserData": "Lấy đầu vào người dùng",
       "sendCarousel": "Gửi băng chuyền",
       "actions": "Hành động",
@@ -2783,21 +2783,21 @@
       "sequenceActions": "Hành động chăm sóc",
       "subscribeSequence": "Đăng ký chăm sóc",
       "unsubscribeSequence": "Hủy đăng ký chăm sóc",
-      "noTemplatesAvailable": "No templates available",
+      "noTemplatesAvailable": "Không có mẫu tin nhắn nào",
       "inboxesUnavailable": "Không thể tải kênh",
-      "noFlowsAvailable": "Không có flow nào",
+      "noFlowsAvailable": "Không có kịch bản nào",
       "splitTraffic": "Chia lưu lượng",
       "aiEditImage": "AI Chỉnh sửa hình ảnh",
-      "whatsappFlow": "Luồng WhatsApp",
+      "whatsappFlow": "Kịch bản WhatsApp",
       "sendMetaCapiEvent": "Gửi sự kiện Meta CAPI",
-      "import": "Nhập luồng",
+      "import": "Nhập kịch bản",
       "export": "Xuất",
-      "importStarted": "Luồng đang được nhập. Kiểm tra lịch sử nhập để xem kết quả.",
+      "importStarted": "Kịch bản đang được nhập. Kiểm tra lịch sử nhập để xem kết quả.",
       "importJsonOnly": "Chỉ tệp JSON",
       "whatsappCallButton": "Gọi qua WhatsApp",
       "whatsappLocation": "Vị trí",
       "metaConversions": "API Chuyển đổi Meta",
-      "threadControl": "Điều khiển luồng",
+      "threadControl": "Điều khiển hội thoại",
       "sendGoogleAdsConversion": "Gửi chuyển đổi Google Ads",
       "changeGamificationScore": "Thay đổi điểm xếp hạng",
       "sendViewCatalog": "Xem danh mục",
@@ -2822,9 +2822,9 @@
     },
     "whatsappFlow": {
       "buttonLabel": "Nhãn nút",
-      "editDialogTitle": "Chỉnh sửa Luồng WhatsApp",
-      "selectFlow": "Luồng WhatsApp",
-      "selectFlowPlaceholder": "Chọn luồng",
+      "editDialogTitle": "Chỉnh sửa kịch bản WhatsApp",
+      "selectFlow": "Kịch bản WhatsApp",
+      "selectFlowPlaceholder": "Chọn kịch bản",
       "startScreen": "Màn hình bắt đầu",
       "selectScreenPlaceholder": "Chọn màn hình",
       "fieldMappings": "Lưu phản hồi vào trường tùy chỉnh",
@@ -2873,7 +2873,7 @@
       "set": "Thiết lập thành"
     },
     "wait": {
-      "datetimeTooltip": "Ngày và giờ khi luồng sẽ được kích hoạt.",
+      "datetimeTooltip": "Ngày và giờ khi kịch bản sẽ được kích hoạt.",
       "setInterval": "Thiết lập khoảng thời gian",
       "delayTypeLabel": "Đây là độ trễ",
       "fixed": "Cố định",
@@ -2915,7 +2915,7 @@
     },
     "dataWasSaved": "Đã lưu dữ liệu",
     "media": {
-      "stepUnsupportedOnChannel": "Kênh này không gửi được loại media này — bước sẽ bị bỏ qua. Hãy xoá bước, hoặc đổi node sang kênh có hỗ trợ.",
+      "stepUnsupportedOnChannel": "Kênh này không gửi được loại media này — bước sẽ bị bỏ qua. Hãy xoá bước, hoặc đổi bước sang kênh có hỗ trợ.",
       "buttonsSkippedOnChannel": "Kênh này không gửi được nút kèm tin nhắn media — các nút sẽ bị bỏ qua. Hãy đặt chúng ở bước văn bản ngay sau."
     },
     "whatsappCallButton": {
@@ -3007,7 +3007,7 @@
   },
   "facebookMarketingMessages": {
     "deleteWarning": "Thao tác này chỉ xóa chiến dịch khỏi ChatbotX. Chiến dịch tin nhắn Meta vẫn chạy — hãy tạm dừng hoặc xóa trong Trình quản lý quảng cáo.",
-    "title": "Facebook Marketing Messages",
+    "title": "Tin nhắn tiếp thị Facebook",
     "description": "Tăng tương tác và doanh số bằng tin nhắn quảng cáo được cá nhân hóa trên Messenger.",
     "create": "Tạo mới",
     "grantTitle": "Cấp quyền truy cập Facebook",
@@ -3217,7 +3217,7 @@
       "retarget": "Tiếp thị lại",
       "thoseWhoPurchased": "Những người đã mua",
       "thoseWhoStartedConversation": "Những người đã bắt đầu cuộc hội thoại",
-      "sendWhatsappBroadcast": "Gửi broadcast WhatsApp",
+      "sendWhatsappBroadcast": "Gửi tin hàng loạt qua WhatsApp",
       "retargetOnChannel": "Tiếp thị lại trên {channel}",
       "from": "Từ ngày",
       "to": "Đến ngày",
@@ -3287,7 +3287,7 @@
       "list": "Danh sách",
       "lists": "Danh sách",
       "tags": "Thẻ",
-      "automation": "Automation",
+      "automation": "Tự động hóa",
       "customFields": "Trường tùy chỉnh trong ActiveCampaign",
       "optional": "Không bắt buộc",
       "nothingSelected": "Chưa chọn",
@@ -3330,13 +3330,13 @@
     },
     "fields": {
       "apiKey": "API Key",
-      "list": "List",
+      "list": "Danh sách",
       "listPlaceholder": "Chọn list",
       "email": "Trường Email",
       "emailPlaceholder": "Chọn trường email",
       "emailTooltip": "Trường liên hệ chứa email để nhận diện contacts trong GetResponse.",
-      "tags": "Tags",
-      "tagsPlaceholder": "Chọn tags",
+      "tags": "Thẻ",
+      "tagsPlaceholder": "Chọn thẻ",
       "dayOfCycle": "Ngày trong chu kỳ autoresponder",
       "dayOfCyclePlaceholder": "0",
       "dayOfCycleTooltip": "Di chuyển liên hệ đến ngày cụ thể trong chu kỳ autoresponder. Nhập 0 để bắt đầu từ ngày 0.",
@@ -3349,10 +3349,10 @@
       "limited": "Chỉ hiển thị trang đầu tiên của list GetResponse."
     },
     "tags": {
-      "loading": "Đang tải tags GetResponse...",
-      "error": "Không thể tải tags GetResponse. Hãy kiểm tra tích hợp đã được kết nối.",
-      "empty": "Không tìm thấy tags GetResponse.",
-      "limited": "Chỉ hiển thị trang đầu tiên của tags GetResponse."
+      "loading": "Đang tải thẻ GetResponse...",
+      "error": "Không thể tải thẻ GetResponse. Hãy kiểm tra tích hợp đã được kết nối.",
+      "empty": "Không tìm thấy thẻ GetResponse.",
+      "limited": "Chỉ hiển thị trang đầu tiên trong danh sách thẻ GetResponse."
     },
     "errors": {
       "invalidApiKey": "API Key không hợp lệ. Vui lòng kiểm tra lại API Key GetResponse và thử lại."
@@ -3523,7 +3523,7 @@
     "title": "Make",
     "setting": {
       "label": "Make",
-      "description": "Kết nối tài khoản Make.com để gửi sự kiện từ flow của bạn và nhận dữ liệu contact qua scenario của Make.",
+      "description": "Kết nối tài khoản Make.com để gửi sự kiện từ các kịch bản và nhận dữ liệu liên hệ qua các tình huống tự động hóa trên Make.",
       "notConfigured": "Chưa tìm thấy link mời Make. Vui lòng thêm trong Cài đặt Nền tảng."
     }
   },
@@ -3547,7 +3547,7 @@
     },
     "gotoFlow": {
       "label": "Chuyển đến kịch bản",
-      "description": "Flow được bắt đầu khi trợ lý AI trả lại hội thoại. Được ưu tiên hơn tin nhắn trả lại.",
+      "description": "Kịch bản được bắt đầu khi trợ lý AI trả lại hội thoại. Được ưu tiên hơn tin nhắn trả lại.",
       "placeholder": "Chọn kịch bản",
       "clear": "Bỏ kịch bản"
     },
@@ -3694,10 +3694,10 @@
     "failed": "Thất bại",
     "copiedToClipboard": "Đã sao chép vào bộ nhớ tạm",
     "messengerAdsJsonDescription": "Bạn chỉ cần tạo mã JSON mới nếu bạn thay đổi Bước bắt đầu. Các thay đổi ở những bước khác sẽ không ảnh hưởng đến mã JSON này.",
-    "welcomeMessageFlowIdsTitle": "ID luồng tin nhắn chào mừng",
+    "welcomeMessageFlowIdsTitle": "ID kịch bản tin nhắn chào mừng",
     "welcomeMessageFlowIdsDescription": "Được đồng bộ lên từng Trang Facebook khi bạn xuất bản. Chọn trong mục Ứng dụng đối tác ở Trình quản lý quảng cáo.",
-    "messengerAdsNotPublished": "Hãy xuất bản nội dung của luồng này rồi thử lại.",
-    "messengerAdsNoStartNode": "Luồng này chưa có Bước bắt đầu hợp lệ. Hãy mở luồng, đặt một Bước bắt đầu gửi tin nhắn, sau đó xuất bản và thử lại.",
+    "messengerAdsNotPublished": "Hãy xuất bản nội dung của kịch bản này rồi thử lại.",
+    "messengerAdsNoStartNode": "Kịch bản này chưa có bước bắt đầu hợp lệ. Hãy mở kịch bản, thiết lập bước Gửi tin nhắn ở điểm bắt đầu, rồi xuất bản và thử lại.",
     "messengerAdsError": "Đã xảy ra lỗi khi tạo mã JSON. Vui lòng thử lại.",
     "messengerAdsInvalidStepType": "Bước bắt đầu chỉ có thể chứa Văn bản, Hình ảnh, Thẻ, Bộ sưu tập, Video, Video Facebook, Âm thanh và Tệp.",
     "messengerAdsInvalidVariable": "Bạn không thể sử dụng trường tùy chỉnh ở 'Bước bắt đầu' do giới hạn của Facebook. Chỉ có thể thêm first_name, last_name và full_name vào tin nhắn.",
@@ -3784,31 +3784,31 @@
     "enableFeatureDescription": "Bạn có chắc chắn muốn bật {feature}?",
     "exportedSuccess": "{feature} đã được xuất thành công",
     "syncedSuccessfully": "Đã đồng bộ thành công",
-    "createSuccess": "{feature} created successfully",
-    "deleteFailed": "Failed to delete {feature}",
-    "deleteSuccess": "{feature} deleted successfully",
-    "error": "Error",
-    "moveFolderDescription": "Move {feature} to folder",
+    "createSuccess": "Đã tạo {feature} thành công",
+    "deleteFailed": "Không thể xóa {feature}",
+    "deleteSuccess": "Đã xóa {feature} thành công",
+    "error": "Lỗi",
+    "moveFolderDescription": "Chuyển {feature} vào thư mục",
     "noData": "Không có dữ liệu",
     "featureNotFound": "Không tìm thấy {feature}",
     "enableSuccess": "Đã bật {feature} thành công",
     "userInactive": "Người dùng không hoạt động hơn 7 ngày",
     "messagingWindowClosed": "Không thể gửi tin nhắn ngoài cửa sổ thời gian cho phép",
     "humanAgentWindowExpired": "Cửa sổ nhắn tin đã hết hạn. Liên hệ phải nhắn tin trước để mở lại cuộc trò chuyện.",
-    "restoreVersionSuccess": "Đã khôi phục luồng về phiên bản đã chọn",
+    "restoreVersionSuccess": "Đã khôi phục kịch bản về phiên bản đã chọn",
     "revertToPublishedSuccess": "Đã hoàn nguyên bản nháp về phiên bản đã xuất bản",
     "revertToPublishedConfirmTitle": "Hoàn nguyên về phiên bản đã xuất bản?",
-    "revertToPublishedConfirmDescription": "Thao tác này sẽ bỏ các thay đổi trong bản nháp hiện tại và khôi phục nội dung luồng đã xuất bản.",
+    "revertToPublishedConfirmDescription": "Thao tác này sẽ bỏ các thay đổi trong bản nháp hiện tại và khôi phục nội dung kịch bản đã xuất bản.",
     "noVersionsFound": "Không tìm thấy phiên bản đã xuất bản",
     "publishVersionSuccess": "Đã xuất bản phiên bản mới",
     "flowConfigIncomplete": "Một số cấu hình chưa hoàn chỉnh",
     "quickReplyNextStepRequired": "Chọn bước tiếp theo cho mỗi cài đặt trả lời nhanh đang bật",
     "quickReplyRetryMessageRequired": "Nhập tin nhắn thử lại",
     "quickReplyRetryWithGetUserData": "Không thể kết hợp Thử lại với bước Lấy đầu vào người dùng",
-    "whatsappFlowIncomplete": "Mở nút và chọn WhatsApp Flow cùng màn hình bắt đầu.",
+    "whatsappFlowIncomplete": "Mở phần cài đặt nút, sau đó chọn kịch bản WhatsApp và màn hình bắt đầu.",
     "whatsappCarouselButtonsMismatch": "Với WhatsApp, mọi thẻ trong một carousel phải có nút giống nhau: hoặc mỗi thẻ đúng một nút mở liên kết, hoặc mỗi thẻ cùng số nút trả lời",
     "whatsappCarouselLinkButtonNotAlone": "Với WhatsApp, thẻ carousel có nút mở liên kết thì không được có nút nào khác. Hãy xoá các nút còn lại trên thẻ đó, hoặc đổi nút mở liên kết sang hành động khác.",
-    "templateButtonOpenMiniAppUnsupported": "Nút của template không mở được Mini App. Hãy chọn hành động khác cho nút này.",
+    "templateButtonOpenMiniAppUnsupported": "Nút của mẫu tin nhắn không mở được Mini App. Hãy chọn hành động khác cho nút này.",
     "duplicateNodeError": "Không thể nhân bản khối. Vui lòng thử lại.",
     "deleteNodeError": "Không thể xoá khối. Vui lòng thử lại.",
     "redoHistoryCleared": "Đã xoá lịch sử làm lại",
@@ -3834,17 +3834,17 @@
     "acceptedCallPermission": "Đã chấp nhận yêu cầu cấp quyền gọi",
     "declinedCallPermission": "Đã từ chối yêu cầu cấp quyền gọi",
     "sendHumanAgentTag": "Gửi một tin nhắn với thẻ HUMAN_AGENT",
-    "warning": "Warning!",
+    "warning": "Cảnh báo!",
     "humanAgentWarningDescription": "Bạn chỉ có thể trả lời tin nhắn của người dùng trong vòng 7 ngày khi vấn đề không thể giải quyết trong vòng 24 giờ. Ví dụ: cuối tuần, ngày lễ, hoặc các trường hợp cần hơn một ngày để xử lý. Không sử dụng tùy chọn này cho bất kỳ lý do nào khác vì có thể ảnh hưởng đến Trang Facebook hoặc tài khoản Instagram của bạn. Nếu bạn không chắc chắn, đừng tiếp tục.",
     "callFailed": "Sự cố cuộc gọi",
     "flowResponse": {
       "viewResponse": "Xem phản hồi",
-      "title": "Phản hồi Flow",
-      "description": "Các câu trả lời khách hàng đã gửi trong WhatsApp Flow này.",
+      "title": "Phản hồi từ kịch bản",
+      "description": "Các câu trả lời khách hàng đã gửi qua kịch bản WhatsApp này.",
       "empty": "Phản hồi này không có câu trả lời nào.",
       "failed": "Không tải được phản hồi.",
       "noAnswer": "Không trả lời",
-      "labelsUnavailable": "Không tải được câu hỏi của Flow nên đang hiển thị tên trường.",
+      "labelsUnavailable": "Không tải được câu hỏi trong kịch bản nên hệ thống đang hiển thị tên trường.",
       "yes": "Có",
       "no": "Không"
     },
@@ -3897,7 +3897,7 @@
     "title": "Đồng bộ liên hệ và lịch sử chat hiện có?",
     "descriptionWhatsapp": "Khi bật, hệ thống sẽ nhập liên hệ và tối đa 6 tháng lịch sử chat từ số WhatsApp này.",
     "descriptionMessenger": "Khi bật, hệ thống sẽ nhập liên hệ Messenger hiện có và tối đa 3 tháng lịch sử hội thoại từ Page này.",
-    "descriptionInstagram": "When enabled, existing Instagram contacts and up to 3 months of conversation history will be imported from this Instagram account.",
+    "descriptionInstagram": "Khi bật, các liên hệ Instagram hiện có cùng lịch sử trò chuyện tối đa 3 tháng sẽ được nhập từ tài khoản Instagram này.",
     "enable": "Bật đồng bộ",
     "decline": "Không đồng bộ",
     "billingNote": "Page lớn có thể mất vài giờ để hoàn tất.",
@@ -4046,7 +4046,7 @@
     "thresholdScore": "Yêu cầu ngưỡng điểm",
     "thresholds": "Độ tin cậy và ngưỡng",
     "addProfile": "Thêm AI Router profile",
-    "globalRouter": "Global Router",
+    "globalRouter": "Bộ định tuyến tổng",
     "globalRouterRoutesDiscarded": "Các tuyến và ánh xạ metadata của Global Router cũng sẽ bị xoá.",
     "globalRouterDescription": "Profile này trở thành Global Router của workspace và thay thế Global Router đã chọn trước đó.",
     "globalRouterChooseDestination": "Chọn điểm đến",
@@ -4056,18 +4056,18 @@
     "globalRouterRoutes": "Điều hướng kết quả nhận diện",
     "globalRouterUsesFallback": "Dùng điểm đến mặc định",
     "globalRouterDestinationTypes": {
-      "flow": "Luồng",
-      "aiAgent": "AI Agent",
+      "flow": "Kịch bản",
+      "aiAgent": "Trợ lý AI",
       "assignConversation": "Gán cuộc trò chuyện cho quản trị viên"
     },
-    "globalRouterFallbackDescription": "Bắt buộc có destination mặc định. Nó chỉ áp dụng khi Global Router khả dụng nhưng evaluation không có kết quả hoặc route hợp lệ; connection/model không khả dụng sẽ dùng Default AI/Flow của workspace.",
+    "globalRouterFallbackDescription": "Cần chọn đích xử lý mặc định. Đích này chỉ được dùng khi bộ định tuyến tổng vẫn hoạt động nhưng không có kết quả đánh giá hoặc tuyến xử lý hợp lệ. Nếu kết nối hay mô hình không khả dụng, hệ thống sẽ dùng AI hoặc kịch bản mặc định của không gian làm việc.",
     "globalRouterFalseMaximum": "Xác suất FALSE tối đa",
     "globalRouterMetadataMappings": "Ánh xạ metadata kết quả (tuỳ chọn)",
     "globalRouterNoulDescription": "Giá trị nằm giữa ngưỡng FALSE tối đa và TRUE tối thiểu sẽ dùng fallback. Ngưỡng của profile không ảnh hưởng Noul routing của Global Router.",
     "globalRouterRuntimeUnsupported": "Model này chưa được chứng nhận cho AI Router runtime. Bạn vẫn có thể lưu cấu hình, nhưng Global Router sẽ inactive cho đến khi được chứng nhận.",
     "globalRouterTrueMinimum": "Xác suất TRUE tối thiểu",
     "flowStepDescription": "Chọn profile đang bật và ánh xạ kết quả có kiểu vào custom field của contact.",
-    "profile": "AI Router profile",
+    "profile": "Cấu hình bộ định tuyến AI",
     "question": "Câu hỏi",
     "result": "Kết quả",
     "resultValues": {
@@ -4082,8 +4082,8 @@
     "charactersRemaining": "Còn {count} ký tự",
     "modelUnavailable": "Model đã chọn không còn khả dụng. Hãy chọn model khác.",
     "editProfile": "Chỉnh sửa AI Router profile",
-    "evaluateDecision": "AI Router",
-    "model": "Model",
+    "evaluateDecision": "Bộ định tuyến AI",
+    "model": "Mô hình",
     "profileDescription": "Profile kết hợp một kết nối AI Router, model và hợp đồng câu hỏi có kiểu dữ liệu.",
     "profiles": "AI Router profile",
     "status": {
@@ -4103,11 +4103,11 @@
     "endpointDescription": "Dùng endpoint API tương thích System One của provider.",
     "modelCatalog": "Các model khả dụng",
     "modelCatalogDescription": "Nhập một model ID mỗi dòng hoặc ngăn cách các model ID bằng dấu phẩy.",
-    "provider": "Provider",
+    "provider": "Nhà cung cấp",
     "testFailed": "Kiểm tra kết nối AI Router thất bại.",
     "testPassed": "Kiểm tra kết nối AI Router thành công.",
-    "toolDescription": "Tạo profile dùng lại cho flow step AI Router.",
-    "title": "AI Router",
+    "toolDescription": "Tạo cấu hình có thể tái sử dụng cho bước Bộ định tuyến AI trong kịch bản.",
+    "title": "Bộ định tuyến AI",
     "contactContext": "Ngữ cảnh liên hệ",
     "contextProviderWarning": "Các giá trị custom field liên hệ được chọn sẽ gửi đến provider AI Router."
   },
@@ -4128,20 +4128,20 @@
     "apiKeyKeepExisting": "Để trống để giữ API key hiện tại.",
     "autoReply": {
       "description": "Cho phép provider này được dùng cho phản hồi AI tự động.",
-      "label": "AI Auto Reply"
+      "label": "AI tự động trả lời"
     },
     "connect": {
-      "description": "Kết nối các provider tương thích OpenAI cho danh sách fallback của AI Agent.",
+      "description": "Kết nối các nhà cung cấp tương thích OpenAI cho danh sách dự phòng của trợ lý AI.",
       "label": "Provider tương thích OpenAI"
     },
     "empty": "Chưa cấu hình provider tương thích OpenAI.",
     "fields": {
-      "baseURL": "Base URL",
+      "baseURL": "URL cơ sở",
       "defaultModel": "Model mặc định",
       "enabled": "Đang bật"
     },
-    "provider": "AI Provider",
-    "title": "OpenAI Compatible",
+    "provider": "Nhà cung cấp AI",
+    "title": "Tương thích OpenAI",
     "validation": {
       "invalidBaseURL": "Base URL không hợp lệ hoặc không được phép.",
       "presetAlreadyConnected": "Preset này đã được kết nối trong workspace."
@@ -4150,8 +4150,8 @@
   "settings": {
     "title": "Cài đặt",
     "agents": {
-      "description": "Mô tả AI Agents",
-      "title": "AI Agents"
+      "description": "Mô tả các trợ lý AI",
+      "title": "Các trợ lý AI"
     },
     "automatedResponses": {
       "title": "Phản hồi tự động"
@@ -4238,7 +4238,7 @@
       "unsupportedInboxIdentifier": "Kênh này không thể được nhận diện bằng giá trị đó.",
       "identifierRequired": "Hãy thêm ít nhất một định danh liên hệ.",
       "unknownFieldTarget": "Một trường liên hệ đã ánh xạ không còn tồn tại.",
-      "actionReferenceNotFound": "Một hành động tham chiếu đến luồng, thẻ hoặc trường không còn tồn tại.",
+      "actionReferenceNotFound": "Một hành động tham chiếu đến kịch bản, thẻ hoặc trường không còn tồn tại.",
       "fieldMappingRequired": "Hãy thêm ít nhất một ánh xạ trường."
     }
   },
@@ -4246,7 +4246,7 @@
     "chatUnavailable": "Cuộc trò chuyện này hiện không khả dụng.",
     "description": "Cho phép khách hàng của bạn nhận phản hồi tự động ngay lập tức từ doanh nghiệp của bạn trực tiếp từ trang web của bạn",
     "rateLimitExceeded": "Quá nhiều yêu cầu. Vui lòng thử lại sau giây lát.",
-    "title": "Web Chat",
+    "title": "Chat trên web",
     "workspaceUnavailable": "Không gian làm việc này không còn khả dụng.",
     "unauthorizedDomain": {
       "description": "Trang web này không được phép tải tiện ích chat này.",
@@ -4257,7 +4257,7 @@
     "category": {
       "marketing": {
         "description": "Mô tả danh mục Marketing",
-        "label": "Marketing"
+        "label": "Tiếp thị"
       },
       "utility": {
         "description": "Mô tả danh mục Tiện ích",
@@ -4282,7 +4282,7 @@
     },
     "manualConnect": "Kết nối thủ công bằng token truy cập System User.",
     "manualOnboarding": {
-      "title": "Inbox WhatsApp của bạn đã sẵn sàng!",
+      "title": "Hộp thư trực tiếp WhatsApp của bạn đã sẵn sàng!",
       "description": "Cấu hình URL webhook và mã xác minh trong ứng dụng Meta của bạn. Sử dụng các giá trị bên dưới.",
       "webhookUrl": "URL Webhook",
       "verifyToken": "Mã xác minh webhook",
@@ -4369,9 +4369,9 @@
       "params": {
         "couponCode": "Mã giảm giá",
         "couponCodePlaceholder": "Nhập mã giảm giá",
-        "flowToken": "Flow Token",
-        "flowTokenPlaceholder": "Nhập flow token",
-        "flowNotSynced": "Đồng bộ luồng WhatsApp để ánh xạ các trường đã gửi.",
+        "flowToken": "Token của kịch bản",
+        "flowTokenPlaceholder": "Nhập token của kịch bản",
+        "flowNotSynced": "Đồng bộ các kịch bản WhatsApp để ánh xạ các trường dữ liệu đã gửi.",
         "catalogProductId": "Sản phẩm trong danh mục",
         "catalogProductIdPlaceholder": "Tìm kiếm sản phẩm…",
         "carouselCard": "Thẻ {index}",
@@ -4422,7 +4422,7 @@
       "accountHealths": "Tình trạng tài khoản",
       "automation": "Tự động hóa",
       "ecommerce": "Thương mại điện tử",
-      "flows": "Luồng",
+      "flows": "Kịch bản",
       "messageTemplates": "Mẫu tin nhắn",
       "profile": "Hồ sơ",
       "usefulLinks": "Liên kết hữu ích",
@@ -4464,7 +4464,7 @@
           "tooltip": "Tài khoản WhatsApp Business đang ở chế độ hoạt động hay sandbox."
         },
         "marketingMessages": {
-          "label": "Marketing Messages (MM Lite)",
+          "label": "Tin nhắn tiếp thị (MM Lite)",
           "tooltip": "Trạng thái onboarding của tài khoản WhatsApp Business vào Marketing Messages Lite API.",
           "status": {
             "INELIGIBLE_ON_BEHALF_OF_WABA": "Không đủ điều kiện: mô hình OBO",
@@ -4496,13 +4496,13 @@
         "phoneNumberHealth": {
           "label": "Tình trạng số điện thoại",
           "tooltip": "Số điện thoại có thể gửi tin nhắn hay không và các vấn đề liên quan.",
-          "headline": "Phone Number - {status}"
+          "headline": "Số điện thoại - {status}"
         },
         "wabaHealth": {
           "label": "Tình trạng tài khoản WhatsApp Business",
           "tooltip": "Tài khoản WhatsApp Business có thể gửi tin nhắn hay không và các vấn đề liên quan.",
-          "headline": "WhatsApp Business Account (WABA ID: {id}) - {status}",
-          "headlineNoId": "WhatsApp Business Account - {status}"
+          "headline": "Tài khoản WhatsApp Business (WABA ID: {id}) - {status}",
+          "headlineNoId": "Tài khoản WhatsApp Business - {status}"
         }
       },
       "messagingLimitTier": {
@@ -4523,14 +4523,14 @@
         "PENDING_REVIEW": "Đang chờ duyệt"
       },
       "accountMode": {
-        "LIVE": "Live",
-        "SANDBOX": "Sandbox"
+        "LIVE": "Đang hoạt động",
+        "SANDBOX": "Môi trường thử nghiệm"
       },
       "canSendMessage": {
-        "AVAILABLE": "AVAILABLE",
-        "LIMITED": "LIMITED",
-        "BLOCKED": "BLOCKED",
-        "UNKNOWN": "UNKNOWN"
+        "AVAILABLE": "CÓ THỂ GỬI",
+        "LIMITED": "BỊ GIỚI HẠN",
+        "BLOCKED": "BỊ CHẶN",
+        "UNKNOWN": "KHÔNG XÁC ĐỊNH"
       },
       "health": {
         "label": "Trạng thái doanh nghiệp",
@@ -4568,7 +4568,7 @@
       "enableLabel": "Bật tính năng gọi",
       "enableHelper": "Bật tính năng gọi WhatsApp cho số này.",
       "iconVisibilityLabel": "Hiện nút gọi cho khách",
-      "iconVisibilityHelper": "Hiện nút gọi trong ứng dụng WhatsApp của khách. Không ảnh hưởng tới inbox.",
+      "iconVisibilityHelper": "Hiện nút gọi trong ứng dụng WhatsApp của khách. Không ảnh hưởng tới hộp thư trực tiếp.",
       "callbackPermissionLabel": "Xin phép gọi lại",
       "callbackPermissionHelper": "Sau cuộc gọi nhỡ hoặc đã kết thúc, xin phép khách để gọi lại.",
       "propagationNote": "Meta áp dụng thay đổi ngay, nhưng ứng dụng WhatsApp của khách có thể mất tới 7 ngày mới cập nhật.",
@@ -4587,14 +4587,14 @@
         "bicUnavailable": "Tính năng gọi từ doanh nghiệp chưa hỗ trợ cho quốc gia này",
         "callAlreadyInProgress": "Đã có một cuộc gọi đến khách hàng này đang diễn ra",
         "hangupFailed": "Không thể kết thúc cuộc gọi",
-        "voipCannotAnswer": "This call is no longer available to answer",
-        "voipCallEnded": "The call ended before it could be answered",
-        "voipAnswerFailed": "Could not answer the WhatsApp call",
+        "voipCannotAnswer": "Không thể trả lời cuộc gọi này nữa",
+        "voipCallEnded": "Cuộc gọi đã kết thúc trước khi được trả lời",
+        "voipAnswerFailed": "Không thể trả lời cuộc gọi WhatsApp",
         "voipRejectFailed": "Không thể từ chối cuộc gọi WhatsApp",
         "voipHangupFailed": "Không thể kết thúc cuộc gọi WhatsApp",
         "voipNotReservedAgent": "Bạn không phải là nhân viên được phân công cho cuộc gọi này",
         "voipCallAccessDenied": "Bạn không có quyền xử lý cuộc gọi này",
-        "voipTurnCredentialsRateLimited": "Too many call setup requests. Please wait a moment and try again.",
+        "voipTurnCredentialsRateLimited": "Có quá nhiều yêu cầu thiết lập cuộc gọi. Vui lòng chờ một chút rồi thử lại.",
         "callNoLongerRinging": "Cuộc gọi đó không còn đổ chuông nữa",
         "transcriptionRequiresRecording": "Hãy bật ghi âm cuộc gọi trước khi bật chép lời.",
         "supportSessionCallingBlocked": "Không thể gọi điện trong phiên hỗ trợ nền tảng.",
@@ -4608,17 +4608,17 @@
       "permissionRequestDefaultBody": "Chúng tôi muốn gọi cho bạn qua WhatsApp để hỗ trợ nhanh hơn. Bạn có cho phép chúng tôi gọi không?",
       "permissionRequestSent": "Đã gửi yêu cầu xin quyền gọi",
       "inAppCallingLabel": "Gọi trong ứng dụng (beta)",
-      "inAppCallingHelper": "Định tuyến cuộc gọi WhatsApp của số này vào inbox để agent nghe máy ngay trên trình duyệt.",
+      "inAppCallingHelper": "Chuyển cuộc gọi WhatsApp của số này vào hộp thư trực tiếp để nhân viên có thể nghe máy ngay trên trình duyệt.",
       "recordingLabel": "Ghi âm cuộc gọi",
-      "recordingHelper": "Lưu âm thanh của cuộc gọi nghe hoặc gọi từ inbox vào hội thoại.",
+      "recordingHelper": "Lưu bản ghi âm các cuộc gọi đến và đi trong hộp thư trực tiếp vào cuộc trò chuyện.",
       "recordingInProgress": "Đã yêu cầu ghi âm",
       "incomingCall": "Cuộc gọi WhatsApp đến…",
       "unknownCaller": "Người gọi không xác định",
-      "incomingCallBanner": "Incoming WhatsApp call",
-      "answer": "Answer",
-      "reject": "Reject",
-      "ringingBadge": "Ringing",
-      "ringingCountdown": "{seconds}s",
+      "incomingCallBanner": "Cuộc gọi WhatsApp đến",
+      "answer": "Trả lời",
+      "reject": "Từ chối",
+      "ringingBadge": "Đang đổ chuông",
+      "ringingCountdown": "{seconds} giây",
       "updateFailedTitle": "Meta đã từ chối thay đổi",
       "callContact": "Gọi qua WhatsApp",
       "dialing": "Đang gọi…",
@@ -4637,26 +4637,26 @@
         "manualIntegrationNotice": "Số này được kết nối thủ công và không có thông tin app ở đây. Hãy đăng ký trường webhook 'calls' cho app của bạn trong App Dashboard của Meta.",
         "coexistenceWarning": "Số này đang dùng chế độ coexistence với ứng dụng WhatsApp Business, Meta không hỗ trợ tính năng gọi điện ở chế độ này. Hãy chuyển số này sang chỉ dùng Cloud API."
       },
-      "voipConnecting": "Connecting…",
+      "voipConnecting": "Đang kết nối…",
       "recordingActivity": {
         "showTranscript": "Hiện bản ghi lời nói",
         "hideTranscript": "Ẩn bản ghi lời nói"
       },
       "outbound": {
-        "needsPermission": "You need permission to call this contact. Request permission first.",
-        "permissionCheckFailed": "We could not check your call permission for this contact right now. Please try again in a moment.",
+        "needsPermission": "Bạn cần được cấp quyền để gọi cho liên hệ này. Hãy yêu cầu cấp quyền trước.",
+        "permissionCheckFailed": "Hiện không thể kiểm tra quyền gọi cho liên hệ này. Vui lòng thử lại sau ít phút.",
         "businessCallingUnavailable": "WhatsApp chưa bật tính năng gọi do doanh nghiệp khởi tạo cho số này. Điều này phụ thuộc vào khu vực và điều kiện tài khoản phía Meta nên không thể bật tại đây.",
-        "callAlreadyInProgress": "A call to this contact is already in progress.",
-        "dailyLimitReached": "You have reached the connected-call limit with this contact for now.",
-        "ineligibleNumber": "This number is not eligible for business-initiated calling.",
-        "recipientUncallable": "This contact cannot be called on WhatsApp right now.",
-        "temporarilyDisabled": "Calling is temporarily disabled for this number due to call quality.",
-        "rateLimited": "Too many call attempts. Please wait a moment and try again.",
-        "paymentIssue": "There is a billing issue with your WhatsApp Business account.",
-        "callingNotEnabled": "Calling is not enabled for this WhatsApp number.",
-        "callFailed": "The call could not be placed. Please try again.",
-        "calling": "Calling…",
-        "ringback": "Ringing…",
+        "callAlreadyInProgress": "Đang có một cuộc gọi tới liên hệ này.",
+        "dailyLimitReached": "Bạn đã đạt giới hạn cuộc gọi được kết nối với liên hệ này.",
+        "ineligibleNumber": "Số điện thoại này không đủ điều kiện nhận cuộc gọi do doanh nghiệp khởi tạo.",
+        "recipientUncallable": "Hiện không thể gọi cho liên hệ này qua WhatsApp.",
+        "temporarilyDisabled": "Tính năng gọi tạm thời bị tắt cho số này do chất lượng cuộc gọi.",
+        "rateLimited": "Bạn đã thực hiện quá nhiều lần gọi. Vui lòng chờ một chút rồi thử lại.",
+        "paymentIssue": "Tài khoản WhatsApp Business của bạn đang gặp vấn đề thanh toán.",
+        "callingNotEnabled": "Số WhatsApp này chưa bật tính năng gọi điện.",
+        "callFailed": "Không thể thực hiện cuộc gọi. Vui lòng thử lại.",
+        "calling": "Đang gọi…",
+        "ringback": "Đang đổ chuông…",
         "micPermissionDenied": "Quyền truy cập micrô đã bị từ chối. Hãy cho phép truy cập micrô trong cài đặt trình duyệt và thử lại.",
         "micNotFound": "Không tìm thấy micrô. Hãy kết nối micrô và thử lại.",
         "callAccessDenied": "Bạn không có quyền gọi cho liên hệ này."
@@ -4783,7 +4783,7 @@
         }
       },
       "inboundLabel": "Nhận cuộc gọi đến",
-      "inboundHelper": "Cho khách gọi vào. Tắt thì vẫn gọi ra được nhưng inbox không đổ chuông.",
+      "inboundHelper": "Cho khách gọi vào. Tắt thì vẫn gọi ra được nhưng hộp thư trực tiếp không đổ chuông.",
       "page": {
         "title": "Cuộc gọi",
         "subtitle": "Lịch sử cuộc gọi của không gian làm việc này",
@@ -4855,13 +4855,13 @@
     "conditions": {
       "tagApplied": "Thẻ được áp dụng",
       "tagRemoved": "Thẻ bị xóa",
-      "dateTimeBasedTrigger": "Trigger dựa trên ngày giờ",
+      "dateTimeBasedTrigger": "Điều kiện kích hoạt theo ngày giờ",
       "customFieldValueChanged": "Trường tùy chỉnh thay đổi",
       "contactInfoUpdated": "Số điện thoại hoặc Email được cập nhật",
       "conversationTransferredToHuman": "Cuộc trò chuyện được chuyển cho người",
       "conversationTransferredToBot": "Cuộc trò chuyện được chuyển cho bot",
       "newContact": "Liên hệ mới",
-      "contactUnsubscribedFormBroadcast": "Liên hệ hủy đăng ký phát sóng",
+      "contactUnsubscribedFormBroadcast": "Liên hệ hủy đăng ký gửi tin hàng loạt",
       "archived": "Đã lưu trữ",
       "followUp": "Theo dõi",
       "conversationAssigned": "Cuộc trò chuyện được gán",
@@ -4899,13 +4899,13 @@
       "removeTag": "Xóa thẻ",
       "setCustomField": "Thiết lập trường tùy chỉnh",
       "clearCustomField": "Xóa trường tùy chỉnh",
-      "startAnotherFlow": "Bắt đầu luồng khác",
+      "startAnotherFlow": "Bắt đầu kịch bản khác",
       "notifyAdmins": "Thông báo quản trị viên",
       "transferConversationToHuman": "Chuyển cuộc trò chuyện cho người",
       "sendMetaCapiEvent": "Gửi sự kiện Meta CAPI",
       "sendGoogleAdsConversion": "Gửi chuyển đổi Google Ads"
     },
-    "triggerGoesOff": "Trigger kích hoạt",
+    "triggerGoesOff": "Khi điều kiện được kích hoạt",
     "before": "Trước",
     "after": "Sau",
     "atTheDayOf": "Vào ngày của",
@@ -4948,10 +4948,10 @@
     "submit": "Quét tự động",
     "fields": {
       "inbox": "Hộp thư",
-      "scanFrom": "Quét Inbox từ thời gian"
+      "scanFrom": "Quét hộp thư trực tiếp từ thời điểm"
     },
     "hint": {
-      "range": "Hệ thống sẽ quét khách hàng đã từng inbox page từ {from} đến hiện tại.",
+      "range": "Hệ thống sẽ quét các khách hàng đã nhắn tin cho Trang từ {from} đến hiện tại.",
       "beforeChoose": "Sau khi quét, bạn phải chờ sau 24h tiếp theo mới tiếp tục sử dụng được tính năng này."
     },
     "status": {
@@ -5075,7 +5075,7 @@
       "cancelTitle": "Hủy cuộc hẹn",
       "cancelDescription": "Hủy cuộc hẹn này và chạy các xử lý hủy lịch liên quan.",
       "deleteTitle": "Xóa cuộc hẹn",
-      "deleteDescription": "Xóa cuộc hẹn này khỏi danh sách quản lý. Thao tác này không chạy flow hủy lịch."
+      "deleteDescription": "Xóa cuộc hẹn này khỏi danh sách quản lý. Thao tác này không chạy kịch bản hủy lịch."
     },
     "messages": {
       "cancelled": "Đã hủy cuộc hẹn.",
@@ -5092,8 +5092,8 @@
     "title": "Liên kết giới thiệu",
     "description": "Liên kết từ khóa để mở kịch bản và nhận ref từ kênh.",
     "chatWidget": {
-      "title": "Chat Widget",
-      "description": "Hiển thị các nút kênh chat trên website của bạn. Khách bấm vào một nút để bắt đầu chat và chạy flow của ref link này.",
+      "title": "Khung trò chuyện",
+      "description": "Hiển thị các nút kênh chat trên website của bạn. Khách bấm vào một nút để bắt đầu chat và chạy kịch bản của ref link này.",
       "authorizedDomains": {
         "label": "Tên miền được phép",
         "placeholder": "example.com",
@@ -5104,7 +5104,7 @@
         "label": "Kênh",
         "description": "Tắt một kênh để ẩn kênh đó khỏi widget.",
         "empty": "Chưa kết nối kênh nào có link chat.",
-        "profileLinkOnly": "Mở trang cá nhân — không chạy flow của ref link."
+        "profileLinkOnly": "Mở trang cá nhân — không chạy kịch bản của ref link."
       },
       "preview": "Xem trước",
       "embedCodeDescription": "Dán đoạn code này trước thẻ đóng body trên website của bạn. Thay đổi đã lưu sẽ tự áp dụng, không cần dán lại.",
@@ -5141,7 +5141,7 @@
     "description": "Tạo ảnh cá nhân hóa cho từng liên hệ từ ảnh nền và các lớp văn bản/hình ảnh/mã QR.",
     "publicUrl": {
       "label": "URL công khai",
-      "hint": "Copy và dán url vào kịch bản của luồng/phát sóng/chăm sóc để gửi ảnh cá nhân hóa."
+      "hint": "Sao chép URL rồi dán vào kịch bản, đợt gửi tin hàng loạt hoặc chuỗi tin nhắn chăm sóc để gửi ảnh cá nhân hóa."
     },
     "editor": {
       "addElement": "Thêm phần tử",
@@ -5349,7 +5349,7 @@
       "detailsFailed": "Không thể tải chi tiết.",
       "fieldErrors": "Các trường chưa được lưu",
       "actionResults": "Hành động",
-      "payload": "Payload",
+      "payload": "Dữ liệu gửi đến",
       "status": {
         "received": "Đã nhận",
         "processing": "Đang xử lý",
@@ -5385,7 +5385,7 @@
       "actionSkipReason": {
         "noConversation": "Liên hệ chưa có cuộc trò chuyện",
         "noContactInbox": "Liên hệ chưa kết nối với hộp thư này",
-        "flowInactive": "Luồng chưa được xuất bản",
+        "flowInactive": "Kịch bản chưa được xuất bản",
         "unsupportedAction": "Hành động này không được hỗ trợ ở đây",
         "unsupportedChannel": "Kênh không hỗ trợ hành động này",
         "invalidAction": "Hành động chưa được cấu hình đúng",
@@ -5429,7 +5429,7 @@
     "timeValidation": "Thời gian tin nhắn này phải sau tin nhắn trước",
     "validation": {
       "exception": "Lỗi xác thực",
-      "nameExists": "Tên chuỗi chăm sóc đã tồn tại"
+      "nameExists": "Tên chuỗi tin nhắn chăm sóc đã tồn tại"
     },
     "sendLabel": "Gửi",
     "selectFlowFirst": "Vui lòng chọn kịch bản trước khi bật tin nhắn",
@@ -5446,13 +5446,13 @@
     "allDay": "Cả ngày",
     "customTime": "Tùy chỉnh thời gian",
     "enrollmentSettings": "Cài đặt đăng ký",
-    "enrollmentDescription": "Kiểm soát cách liên hệ được đăng ký vào chuỗi chăm sóc này",
+    "enrollmentDescription": "Kiểm soát cách khách hàng được thêm vào chuỗi tin nhắn chăm sóc này",
     "allowReEnrollment": "Cho phép đăng ký lại",
     "allowReEnrollmentDescription": "Liên hệ có thể được đăng ký nhiều lần",
     "skipWeekends": "Bỏ qua cuối tuần",
     "skipWeekendsDescription": "Không gửi tin nhắn vào thứ Bảy và Chủ Nhật",
     "unenrollOnReply": "Hủy đăng ký khi trả lời",
-    "unenrollOnReplyDescription": "Xóa liên hệ khỏi chuỗi chăm sóc khi họ trả lời",
+    "unenrollOnReplyDescription": "Gỡ khách hàng khỏi chuỗi tin nhắn chăm sóc khi họ trả lời",
     "performance": "Hiệu suất",
     "enrolled": "Đã đăng ký",
     "stats": {
@@ -5495,11 +5495,11 @@
     "saturday": "Thứ Bảy",
     "sunday": "Chủ Nhật",
     "afterText": "Sau",
-    "title": "Chăm sóc"
+    "title": "Chuỗi tin nhắn chăm sóc"
   },
   "tools": {
     "title": "Công cụ",
-    "beta": "Beta"
+    "beta": "Thử nghiệm"
   },
   "users": {
     "title": "Người dùng"
@@ -5560,7 +5560,7 @@
     "addNew": "Thêm mới",
     "applicants": "Ứng viên",
     "generalSettings": "Cài đặt chung",
-    "triggerFlow": "Kích hoạt luồng khi hoàn thành bảng câu hỏi",
+    "triggerFlow": "Kích hoạt kịch bản khi hoàn thành bảng câu hỏi",
     "enableScore": "Tính điểm cho từng câu trả lời.",
     "enableRetryMessages": "Tùy chỉnh tin nhắn thử lại khi trả lời sai.",
     "enableCustomFieldMapping": "Lưu dữ liệu vào trường tùy chỉnh.",
@@ -5584,7 +5584,7 @@
     "completed": "Hoàn thành",
     "completionRate": "Tỷ lệ hoàn thành",
     "date": "Ngày",
-    "inbox": "Inbox",
+    "inbox": "Hộp thư trực tiếp",
     "unknownContact": "Liên hệ không xác định",
     "noAnswers": "Chưa có câu trả lời",
     "responseTypes": {
@@ -5601,8 +5601,8 @@
     },
     "dialogDescriptions": {
       "create": "Đặt tên bảng câu hỏi trước khi thêm câu hỏi.",
-      "rename": "Cập nhật tên bảng câu hỏi hiển thị trong danh sách và luồng.",
-      "flowStep": "Chọn cách bước luồng này tương tác với bảng câu hỏi."
+      "rename": "Cập nhật tên bảng câu hỏi hiển thị trong danh sách và kịch bản.",
+      "flowStep": "Chọn cách bước kịch bản này tương tác với bảng câu hỏi."
     },
     "status": {
       "inProgress": "Đang thực hiện",
@@ -5621,17 +5621,17 @@
     "deactivated": "Đã tắt tự động hóa",
     "trackCommentsOn": "Theo dõi bình luận trên",
     "trackCommentsOnDescription": "Áp dụng tự động hóa cho tất cả bài viết trên trang, hoặc chỉ các bài viết cụ thể bạn chọn.",
-    "privateReply": "Trả lời riêng tư (inbox)",
-    "privateReplyDescription": "Gửi tin nhắn riêng vào inbox của người comment. Chọn AI Agent, mẫu văn bản cố định, chatbot flow, hoặc tắt.",
+    "privateReply": "Trả lời riêng tư (hộp thư trực tiếp)",
+    "privateReplyDescription": "Gửi tin nhắn riêng đến hộp thư của người bình luận. Chọn trợ lý AI, mẫu văn bản cố định, kịch bản chatbot hoặc tắt tính năng.",
     "publicReply": "Trả lời công khai bình luận",
-    "publicReplyDescription": "Phản hồi công khai trực tiếp dưới bình luận. Hỗ trợ tối đa 10 mẫu văn bản, AI Agent, chatbot flow, hoặc không phản hồi. Mỗi đoạn được đăng thành một bình luận trả lời riêng. Hỗ trợ spintax.",
+    "publicReplyDescription": "Phản hồi công khai dưới bình luận. Hỗ trợ tối đa 10 mẫu văn bản, trợ lý AI, kịch bản chatbot hoặc không phản hồi. Mỗi đoạn được đăng thành một bình luận trả lời riêng. Hỗ trợ spintax.",
     "replyMessage": "Nội dung trả lời",
     "replyMessagePlaceholder": "Nhập nội dung trả lời...",
     "includeKeywordsType": "Trả lời cho",
     "includeKeywordsTypeDescription": "Chọn loại bình luận nào sẽ kích hoạt tự động hóa này.",
     "includeKeywords": "Từ khóa cần khớp",
     "excludeKeywords": "Loại trừ bình luận chứa",
-    "excludeKeywordsDescription": "Bình luận chứa bất kỳ từ khóa nào trong danh sách này sẽ bị bỏ qua bởi cả inbox và phản hồi công khai.",
+    "excludeKeywordsDescription": "Bình luận chứa bất kỳ từ khóa nào trong danh sách này sẽ bị bỏ qua bởi cả hộp thư trực tiếp và phản hồi công khai.",
     "keywordsPlaceholder": "Nhập và nhấn Enter...",
     "replyAfter": "Trả lời sau",
     "replyAfterValue": "Giá trị",
@@ -5660,8 +5660,8 @@
     },
     "replyType": {
       "text": "Tin nhắn văn bản",
-      "flow": "Flow",
-      "AIAgent": "AI Agent",
+      "flow": "Kịch bản",
+      "AIAgent": "Trợ lý AI",
       "none": "Không trả lời"
     },
     "keywordsType": {
@@ -5693,7 +5693,7 @@
       "ignoreCommentReplies": "Không trả lời các reply bình luận",
       "ignoreCommentRepliesDescription": "Bỏ qua tự động hóa với các bình luận là reply vào comment khác (không phải comment gốc).",
       "trackUserTags": "Theo dõi khi người dùng gắn thẻ người khác",
-      "trackUserTagsDescription": "Đếm số tài khoản được tag trong mỗi bình luận và cộng dồn vào tổng của khách hàng qua mọi bình luận. Dùng '{{total_tagged}}' cho tất cả tài khoản được tag và '{{total_new_tagged}}' cho các tài khoản chưa từng nhắn tin với trang hoặc chưa từng là khách hàng."
+      "trackUserTagsDescription": "Đếm số tài khoản được gắn thẻ trong mỗi bình luận và cộng dồn vào tổng của khách hàng qua mọi bình luận. Dùng '{{total_tagged}}' cho tất cả tài khoản được gắn thẻ và '{{total_new_tagged}}' cho các tài khoản chưa từng nhắn tin với trang hoặc chưa từng là khách hàng."
     },
     "hideComments": {
       "all": "Ẩn tất cả bình luận",
@@ -5730,17 +5730,17 @@
     "deactivated": "Đã tắt tự động hóa",
     "trackCommentsOn": "Theo dõi bình luận trên",
     "trackCommentsOnDescription": "Áp dụng tự động hóa cho tất cả bài viết trên tài khoản đã kết nối, hoặc chỉ các bài viết cụ thể bạn chọn.",
-    "privateReply": "Trả lời riêng tư (inbox)",
-    "privateReplyDescription": "Gửi tin nhắn riêng vào inbox của người comment. Chọn AI Agent, mẫu văn bản cố định, chatbot flow, hoặc tắt.",
+    "privateReply": "Trả lời riêng tư (hộp thư trực tiếp)",
+    "privateReplyDescription": "Gửi tin nhắn riêng đến hộp thư của người bình luận. Chọn trợ lý AI, mẫu văn bản cố định, kịch bản chatbot hoặc tắt tính năng.",
     "publicReply": "Trả lời công khai bình luận",
-    "publicReplyDescription": "Phản hồi công khai trực tiếp dưới bình luận. Hỗ trợ tối đa 10 mẫu văn bản, AI Agent, chatbot flow, hoặc không phản hồi. Mỗi đoạn được đăng thành một bình luận trả lời riêng. Hỗ trợ spintax.",
+    "publicReplyDescription": "Phản hồi công khai dưới bình luận. Hỗ trợ tối đa 10 mẫu văn bản, trợ lý AI, kịch bản chatbot hoặc không phản hồi. Mỗi đoạn được đăng thành một bình luận trả lời riêng. Hỗ trợ spintax.",
     "replyMessage": "Nội dung trả lời",
     "replyMessagePlaceholder": "Nhập nội dung trả lời...",
     "includeKeywordsType": "Trả lời cho",
     "includeKeywordsTypeDescription": "Chọn loại bình luận nào sẽ kích hoạt tự động hóa này.",
     "includeKeywords": "Từ khóa cần khớp",
     "excludeKeywords": "Loại trừ bình luận chứa",
-    "excludeKeywordsDescription": "Bình luận chứa bất kỳ từ khóa nào trong danh sách này sẽ bị bỏ qua bởi cả inbox và phản hồi công khai.",
+    "excludeKeywordsDescription": "Bình luận chứa bất kỳ từ khóa nào trong danh sách này sẽ bị bỏ qua bởi cả hộp thư trực tiếp và phản hồi công khai.",
     "keywordsPlaceholder": "Nhập và nhấn Enter...",
     "replyAfter": "Trả lời sau",
     "replyAfterValue": "Giá trị",
@@ -5768,8 +5768,8 @@
     },
     "replyType": {
       "text": "Tin nhắn văn bản",
-      "flow": "Flow",
-      "AIAgent": "AI Agent",
+      "flow": "Kịch bản",
+      "AIAgent": "Trợ lý AI",
       "none": "Không trả lời"
     },
     "keywordsType": {
@@ -5801,7 +5801,7 @@
       "ignoreCommentReplies": "Không trả lời các reply bình luận",
       "ignoreCommentRepliesDescription": "Bỏ qua tự động hóa với các bình luận là reply vào comment khác (không phải comment gốc).",
       "trackUserTags": "Theo dõi khi người dùng gắn thẻ người khác",
-      "trackUserTagsDescription": "Đếm số tài khoản được tag trong mỗi bình luận và cộng dồn vào tổng của khách hàng qua mọi bình luận. Dùng '{{total_tagged}}' cho tất cả tài khoản được tag và '{{total_new_tagged}}' cho các tài khoản chưa từng nhắn tin với trang hoặc chưa từng là khách hàng."
+      "trackUserTagsDescription": "Đếm số tài khoản được gắn thẻ trong mỗi bình luận và cộng dồn vào tổng của khách hàng qua mọi bình luận. Dùng '{{total_tagged}}' cho tất cả tài khoản được gắn thẻ và '{{total_new_tagged}}' cho các tài khoản chưa từng nhắn tin với trang hoặc chưa từng là khách hàng."
     },
     "hideComments": {
       "all": "Ẩn tất cả bình luận",
@@ -5846,8 +5846,8 @@
     "publicReply": "Trả lời công khai bình luận",
     "publicReplyDescription": "Gửi phản hồi công khai cho các bình luận Threads phù hợp. Tối đa 10 tin nhắn văn bản (hỗ trợ spintax), mỗi tin được đăng thành một trả lời riêng.",
     "replyMessage": "Nội dung trả lời",
-    "replyFlow": "Flow trả lời",
-    "replyAIAgent": "AI Agent trả lời",
+    "replyFlow": "Kịch bản trả lời",
+    "replyAIAgent": "Trợ lý AI trả lời",
     "includeKeywordsType": "Trả lời cho",
     "includeKeywords": "Từ khóa cần khớp",
     "excludeKeywords": "Loại trừ bình luận chứa",
@@ -5868,8 +5868,8 @@
     },
     "replyType": {
       "text": "Tin nhắn văn bản",
-      "flow": "Flow",
-      "AIAgent": "AI Agent",
+      "flow": "Kịch bản",
+      "AIAgent": "Trợ lý AI",
       "none": "Không trả lời"
     },
     "keywordsType": {
@@ -5938,7 +5938,7 @@
     "publicReplyDescription": "Gửi trả lời công khai cho các bình luận TikTok khớp điều kiện. Tối đa 10 tin nhắn văn bản (hỗ trợ spintax), mỗi tin được đăng thành một trả lời riêng.",
     "replyMessage": "Nội dung trả lời",
     "replyFlow": "Kịch bản trả lời",
-    "replyAIAgent": "AI Agent trả lời",
+    "replyAIAgent": "Trợ lý AI trả lời",
     "includeKeywordsType": "Trả lời khi",
     "includeKeywords": "Từ khóa cần khớp",
     "excludeKeywords": "Loại trừ bình luận chứa",
@@ -5961,7 +5961,7 @@
     "replyType": {
       "text": "Tin nhắn văn bản",
       "flow": "Kịch bản",
-      "AIAgent": "AI Agent",
+      "AIAgent": "Trợ lý AI",
       "none": "Không trả lời"
     },
     "keywordsType": {
@@ -6060,7 +6060,7 @@
     "trackStoryReplyOn": "Theo dõi reply Story trên",
     "trackStoryReplyOnDescription": "Áp dụng tự động hóa cho reply trên tất cả Story của bạn, hoặc chỉ các Story cụ thể bạn chọn.",
     "reply": "Trả lời",
-    "replyDescription": "Gửi tin nhắn trả lời vào inbox của người reply Story. Chọn AI Agent, mẫu văn bản cố định (hỗ trợ spintax), chatbot flow, hoặc tắt.",
+    "replyDescription": "Gửi tin nhắn trả lời vào hộp thư trực tiếp của người đã phản hồi Tin trên Instagram. Chọn trợ lý AI, mẫu văn bản cố định (hỗ trợ spintax), kịch bản chatbot hoặc tắt.",
     "replyMessage": "Nội dung trả lời",
     "replyMessagePlaceholder": "Nhập nội dung trả lời...",
     "includeKeywordsType": "Trả lời cho",
@@ -6086,8 +6086,8 @@
     },
     "replyType": {
       "text": "Tin nhắn văn bản",
-      "flow": "Flow",
-      "AIAgent": "AI Agent",
+      "flow": "Kịch bản",
+      "AIAgent": "Trợ lý AI",
       "none": "Không trả lời"
     },
     "keywordsType": {
@@ -6105,9 +6105,9 @@
     "connectionType": {
       "title": "Chọn loại kết nối Instagram",
       "instagramTitle": "Instagram Business",
-      "instagramDescription": "Kết nối bằng Instagram Login. Hỗ trợ trả lời qua văn bản, flow, hoặc AI agent.",
+      "instagramDescription": "Kết nối qua Instagram Login. Hỗ trợ trả lời bằng văn bản, kịch bản hoặc trợ lý AI.",
       "instagramFacebookTitle": "Instagram Login qua Facebook",
-      "instagramFacebookDescription": "Instagram được kết nối qua một trang Facebook. Hỗ trợ trả lời qua văn bản, flow, hoặc AI agent."
+      "instagramFacebookDescription": "Instagram được kết nối qua Trang Facebook. Hỗ trợ trả lời bằng văn bản, kịch bản hoặc trợ lý AI."
     }
   },
   "facebookLeadAdsAutomation": {
@@ -6143,11 +6143,11 @@
     "title": "Lập lịch hẹn",
     "description": "Tạo và quản lý lịch hẹn của bạn.",
     "flowModes": {
-      "bookFromCustomField": "Book appointment",
-      "checkAvailabilityFromCustomField": "Check availability",
-      "book": "Open booking page",
-      "checkAvailability": "Open availability page",
-      "cancel": "Cancel appointment"
+      "bookFromCustomField": "Đặt lịch hẹn",
+      "checkAvailabilityFromCustomField": "Kiểm tra lịch trống",
+      "book": "Mở trang đặt lịch",
+      "checkAvailability": "Mở trang xem lịch trống",
+      "cancel": "Hủy lịch hẹn"
     },
     "fields": {
       "mode": "Chế độ",
@@ -6161,7 +6161,7 @@
       "outputCustomFieldId": "Lưu phản hồi vào một trường tùy chỉnh"
     },
     "dialogDescriptions": {
-      "flowStep": "Chọn cách bước luồng này xử lý lịch hẹn."
+      "flowStep": "Chọn cách bước kịch bản này xử lý lịch hẹn."
     }
   },
   "appointmentCalendars": {
@@ -6210,8 +6210,8 @@
       "allowGroupMeeting": "Cho phép hẹn nhóm",
       "maxPerSlot": "Số lượng tối đa mỗi khung giờ",
       "confirmationMessage": "Tin nhắn xác nhận",
-      "confirmationFlowId": "Flow xác nhận",
-      "cancellationFlowId": "Flow huỷ lịch",
+      "confirmationFlowId": "Kịch bản xác nhận",
+      "cancellationFlowId": "Kịch bản huỷ lịch",
       "externalConnectionId": "Lịch bên ngoài",
       "externalEventTitleTemplate": "Mẫu tiêu đề sự kiện",
       "externalEventDescriptionTemplate": "Mẫu mô tả sự kiện",
@@ -6266,8 +6266,8 @@
     },
     "tooltips": {
       "timezone": "Múi giờ bạn dùng để tạo lịch này. Người dùng sẽ thấy khung giờ khả dụng theo múi giờ của họ.",
-      "confirmationFlow": "Flow được gửi khi người dùng đặt lịch hẹn thành công.",
-      "cancellationFlow": "Flow được gửi khi cuộc hẹn bị huỷ.",
+      "confirmationFlow": "Kịch bản được gửi khi người dùng đặt lịch hẹn thành công.",
+      "cancellationFlow": "Kịch bản được gửi khi cuộc hẹn bị huỷ.",
       "reminders": "Gửi nhắc hẹn để người được mời nhớ về cuộc hẹn.",
       "appointmentDuration": "Xác định thời lượng của cuộc hẹn.",
       "bufferAfterMinutes": "Dành thêm thời gian nghỉ sau mỗi cuộc hẹn đã đặt.",
@@ -6349,18 +6349,18 @@
       "defaultAutoUpdateDescription": "Các lượt cài đặt mới sẽ hiển thị thông báo có bản cập nhật mỗi khi bạn xuất bản lại mẫu này."
     },
     "categories": {
-      "flows": "Luồng",
+      "flows": "Kịch bản",
       "customFields": "Trường tùy chỉnh",
       "tags": "Thẻ",
       "products": "Sản phẩm",
       "productCategories": "Danh mục sản phẩm",
       "aiFunctions": "AI Functions",
-      "aiAgents": "AI Agent",
+      "aiAgents": "Trợ lý AI",
       "calendars": "Lịch hẹn",
       "webchats": "Webchat",
       "keywords": "Từ khóa",
       "entryPointLinks": "Liên kết giới thiệu",
-      "triggers": "Trigger",
+      "triggers": "Điều kiện kích hoạt",
       "fbCommentAutomations": "Tự động hóa bình luận Facebook",
       "settings": "Cài đặt"
     }
@@ -6371,7 +6371,7 @@
   },
   "QRCode": {
     "title": "Mã QR",
-    "description": "Share this code so people open your tracking link."
+    "description": "Chia sẻ mã này để mọi người mở liên kết theo dõi của bạn."
   },
   "platformAdmin": {
     "platformCredentials": {
@@ -6395,23 +6395,23 @@
       "supportEnabledUntil": "Đã bật đến {time}",
       "supportOff": "Tắt",
       "searchPlaceholder": "Tìm kiếm theo tên, email chủ sở hữu hoặc ID",
-      "descriptionConsentDisabled": "All workspaces can be opened by platform administrators.",
-      "supportAccessible": "Accessible"
+      "descriptionConsentDisabled": "Quản trị viên nền tảng có thể truy cập tất cả không gian làm việc.",
+      "supportAccessible": "Có quyền truy cập"
     },
     "admins": {
-      "title": "Platform administrators",
-      "description": "Manage users who can access the platform administration console.",
-      "addTitle": "Add platform administrator",
-      "addDescription": "Grant platform administration access to a root-tenant user.",
-      "addButton": "Add administrator",
-      "role": "Role",
-      "bootstrap": "Environment bootstrap administrator",
-      "remove": "Remove administrator",
-      "empty": "No platform administrators are configured.",
-      "added": "Platform administrator added.",
-      "removed": "Platform administrator removed.",
-      "addError": "Could not add the platform administrator.",
-      "removeError": "Could not remove the platform administrator."
+      "title": "Quản trị viên nền tảng",
+      "description": "Quản lý người dùng có quyền truy cập bảng điều khiển quản trị nền tảng.",
+      "addTitle": "Thêm quản trị viên nền tảng",
+      "addDescription": "Cấp quyền quản trị nền tảng cho người dùng của tenant gốc.",
+      "addButton": "Thêm quản trị viên",
+      "role": "Vai trò",
+      "bootstrap": "Quản trị viên khởi tạo từ môi trường",
+      "remove": "Xóa quản trị viên",
+      "empty": "Chưa có quản trị viên nền tảng nào được cấu hình.",
+      "added": "Đã thêm quản trị viên nền tảng.",
+      "removed": "Đã xóa quản trị viên nền tảng.",
+      "addError": "Không thể thêm quản trị viên nền tảng.",
+      "removeError": "Không thể xóa quản trị viên nền tảng."
     }
   },
   "platformCredentials": {
@@ -6434,7 +6434,7 @@
       },
       "legal": {
         "title": "Liên kết pháp lý",
-        "description": "Liên kết hiển thị trong phần footer và luồng xác nhận"
+        "description": "Liên kết hiển thị ở chân trang và trong kịch bản xác nhận"
       },
       "advanced": {
         "title": "Nâng cao",
@@ -6449,8 +6449,8 @@
     "hiddenByPlatform": "Đã bị platform admin ẩn — bạn không thể tự bật lại kênh này."
   },
   "platformEmailTemplates": {
-    "title": "Email Templates",
-    "description": "Để trống subject và body sẽ dùng template mặc định của hệ thống.",
+    "title": "Mẫu email",
+    "description": "Để trống subject và body sẽ dùng mẫu tin nhắn mặc định của hệ thống.",
     "sections": {
       "signup": {
         "title": "Email Xác Nhận Đăng Ký",
@@ -6476,7 +6476,7 @@
       },
       "body": {
         "label": "Nội dung HTML",
-        "placeholder": "Để trống để dùng template mặc định"
+        "placeholder": "Để trống để dùng mẫu tin nhắn mặc định"
       }
     },
     "status": {
@@ -6486,7 +6486,7 @@
     "availableVariables": "Biến có thể dùng",
     "preview": {
       "title": "Xem trước",
-      "empty": "Nhập nội dung template để xem trước"
+      "empty": "Nhập nội dung mẫu tin nhắn để xem trước"
     }
   },
   "manageSidebar": {
@@ -6512,19 +6512,19 @@
     "unavailableDescription": "Không gian làm việc này không còn khả dụng."
   },
   "connectSessionPage": {
-    "metadataTitle": "Connecting…",
-    "processingTitle": "Finishing up…",
-    "processingDescription": "You can close this window. The application that started this connection will finish setting things up shortly.",
-    "completedTitle": "Connected!",
-    "completedDescription": "You can close this window now.",
-    "failedTitle": "Connection failed.",
-    "failedDescription": "Something went wrong while connecting. Please try again from the application that started this.",
-    "cancelledTitle": "Connection cancelled.",
-    "cancelledDescription": "You can close this window.",
-    "expiredTitle": "This link has expired.",
-    "expiredDescription": "Please start the connection again from the application that started this.",
-    "invalidTitle": "This link is no longer valid.",
-    "invalidDescription": "This connection link is invalid or has already been used."
+    "metadataTitle": "Đang kết nối…",
+    "processingTitle": "Đang hoàn tất…",
+    "processingDescription": "Bạn có thể đóng cửa sổ này. Ứng dụng khởi tạo kết nối sẽ sớm hoàn tất thiết lập.",
+    "completedTitle": "Đã kết nối!",
+    "completedDescription": "Bạn có thể đóng cửa sổ này.",
+    "failedTitle": "Kết nối thất bại.",
+    "failedDescription": "Đã xảy ra lỗi khi kết nối. Vui lòng thử lại từ ứng dụng đã khởi tạo kết nối.",
+    "cancelledTitle": "Đã hủy kết nối.",
+    "cancelledDescription": "Bạn có thể đóng cửa sổ này.",
+    "expiredTitle": "Liên kết đã hết hạn.",
+    "expiredDescription": "Vui lòng bắt đầu kết nối lại từ ứng dụng đã khởi tạo kết nối.",
+    "invalidTitle": "Liên kết không còn hợp lệ.",
+    "invalidDescription": "Liên kết kết nối không hợp lệ hoặc đã được sử dụng."
   },
   "templatesPublicPage": {
     "invalidTitle": "Liên kết này không còn khả dụng.",
@@ -6788,14 +6788,14 @@
     "refreshToken": "Làm mới Token"
   },
   "coupons": {
-    "title": "Coupon",
-    "description": "Quản lý chủ đề coupon, import, export và mã coupon dùng trong flow.",
-    "singular": "Coupon",
-    "topicCouponsTitle": "Topic Coupon",
+    "title": "Mã ưu đãi",
+    "description": "Quản lý chủ đề coupon, import, export và mã coupon dùng trong kịch bản.",
+    "singular": "Mã ưu đãi",
+    "topicCouponsTitle": "Chủ đề mã ưu đãi",
     "tabs": {
-      "topicCoupon": "Topic Coupon",
-      "coupon": "Coupon",
-      "listTopic": "List Topic",
+      "topicCoupon": "Chủ đề mã ưu đãi",
+      "coupon": "Mã ưu đãi",
+      "listTopic": "Danh sách chủ đề",
       "archive": "Lưu trữ"
     },
     "topic": {
@@ -6804,7 +6804,7 @@
     },
     "actions": {
       "import": "Import coupon",
-      "export": "Tải danh sách Coupon",
+      "export": "Tải danh sách mã ưu đãi",
       "downloadImportTemplate": "Tải file mẫu import"
     },
     "fields": {
@@ -6812,7 +6812,7 @@
       "selectTopic": "Chọn chủ đề",
       "importCsvOnly": "Nhấp hoặc kéo thả file .csv vào khu vực này để tải lên",
       "allTopics": "Tất cả chủ đề",
-      "couponCount": "Coupon",
+      "couponCount": "Số mã ưu đãi",
       "validity": "Thời hạn",
       "unlimited": "Không giới hạn",
       "code": "Mã",
@@ -6823,15 +6823,15 @@
       "searchCode": "Tìm mã"
     },
     "issueStatuses": {
-      "published": "Published",
-      "unpublished": "Unpublished"
+      "published": "Đã phát hành",
+      "unpublished": "Chưa phát hành"
     },
     "usageStatuses": {
       "used": "Đã dùng",
       "notUsed": "Chưa dùng"
     },
     "variables": {
-      "group": "Coupons"
+      "group": "Mã ưu đãi"
     },
     "messages": {
       "topicSaved": "Đã lưu chủ đề coupon.",
@@ -6885,7 +6885,7 @@
     "deleteChildrenWarning": "{count, plural, one {# danh mục con cũng sẽ bị xóa.} other {# danh mục con cũng sẽ bị xóa.}}"
   },
   "productImport": {
-    "title": "Import",
+    "title": "Nhập dữ liệu",
     "mapColumns": "Ánh xạ cột",
     "mapColumnsHint": "Chọn cột trong file tương ứng với từng trường sản phẩm. Để trống nếu muốn bỏ qua.",
     "downloadTemplate": "Tải file mẫu",
@@ -7138,7 +7138,7 @@
         "customizeProduct": "Tuỳ chỉnh sản phẩm",
         "donate": "Quyên góp",
         "findLocation": "Tìm địa điểm",
-        "lead": "Lead",
+        "lead": "Khách hàng tiềm năng",
         "schedule": "Đặt lịch",
         "search": "Tìm kiếm",
         "startTrial": "Bắt đầu dùng thử",
@@ -7162,14 +7162,14 @@
       "contentCategoryPlaceholder": "Danh mục của nội dung gắn với sự kiện",
       "contentName": "Tên nội dung",
       "contentNamePlaceholder": "Tên trang hoặc sản phẩm gắn với sự kiện",
-      "orderId": "Order ID",
-      "orderIdPlaceholder": "e.g. ORDER-12345",
+      "orderId": "Mã đơn hàng",
+      "orderIdPlaceholder": "Ví dụ: ORDER-12345",
       "contents": {
-        "label": "Line items",
-        "item": "line item",
-        "id": "Product ID",
-        "quantity": "Quantity",
-        "itemPrice": "Item price"
+        "label": "Các sản phẩm trong đơn hàng",
+        "item": "sản phẩm trong đơn hàng",
+        "id": "Mã sản phẩm",
+        "quantity": "Số lượng",
+        "itemPrice": "Đơn giá"
       },
       "customEventName": "Tên sự kiện tuỳ chỉnh",
       "customEventNamePlaceholder": "vd: MyCustomEvent",
@@ -7209,8 +7209,8 @@
       "connect": "Kết nối"
     },
     "limitedDataUse": {
-      "label": "Limited Data Use (US privacy)",
-      "description": "Restrict Meta's use of event data for users in applicable US states. Meta auto-detects the user's location from this event; no location data is sent by ChatbotX."
+      "label": "Hạn chế sử dụng dữ liệu (quyền riêng tư tại Mỹ)",
+      "description": "Hạn chế Meta sử dụng dữ liệu sự kiện của người dùng tại các bang có quy định áp dụng ở Mỹ. Meta tự xác định vị trí người dùng từ sự kiện này; ChatbotX không gửi dữ liệu vị trí."
     },
     "actionSource": {
       "label": "Nguồn hành động",
@@ -7292,7 +7292,7 @@
       "steps": {
         "signIn": "Đăng nhập bằng tài khoản Google đang quản lý quảng cáo của bạn.",
         "chooseAccount": "Chọn tài khoản Google Ads.",
-        "pickAction": "Chọn hành động chuyển đổi trong các luồng của bạn."
+        "pickAction": "Chọn hành động chuyển đổi trong các kịch bản của bạn."
       },
       "uploadMethod": "Phương thức tải lên: {method}"
     },
@@ -7373,7 +7373,7 @@
     "events": {
       "title": "Lịch sử chuyển đổi",
       "description": "Các chuyển đổi gần đây đã gửi đến Google Ads. ID lượt nhấp được che một phần.",
-      "empty": "Chuyển đổi sẽ xuất hiện ở đây khi một luồng hoặc trigger gửi đi.",
+      "empty": "Sự kiện chuyển đổi sẽ xuất hiện ở đây khi kịch bản hoặc điều kiện kích hoạt gửi dữ liệu.",
       "emptyFiltered": "Không có chuyển đổi nào khớp với trạng thái này.",
       "loadError": "Không thể tải lịch sử chuyển đổi.",
       "page": "Trang {page} / {pages}",
@@ -7443,7 +7443,7 @@
         "unsupportedTransport": "Chưa gửi (legacy): {fields}"
       },
       "timeProvided": "Thời gian chỉ định",
-      "timeProvidedTooltip": "Thời gian chuyển đổi này lấy từ bước trong luồng, không phải thời điểm bước chạy."
+      "timeProvidedTooltip": "Thời gian chuyển đổi này lấy từ bước trong kịch bản, không phải thời điểm bước chạy."
     },
     "validate": {
       "open": "Xác thực yêu cầu",
@@ -7689,7 +7689,7 @@
       },
       "empty": {
         "title": "Không có chuyển đổi trong khoảng thời gian này",
-        "description": "Chuyển đổi sẽ xuất hiện ở đây khi một bước luồng hoặc trigger gửi chuyển đổi."
+        "description": "Sự kiện chuyển đổi sẽ xuất hiện ở đây khi một bước kịch bản hoặc điều kiện kích hoạt gửi dữ liệu."
       },
       "error": {
         "title": "Không thể tải thống kê",
@@ -7714,12 +7714,12 @@
     }
   },
   "minigames": {
-    "title": "Gamification",
+    "title": "Trò chơi tương tác",
     "description": "Tạo và quản lý các minigame vòng quay may mắn dành cho khách hàng của bạn.",
     "types": {
       "luckyWheel": "Vòng quay may mắn",
-      "jackpot": "Jackpot",
-      "gashapon": "Gashapon",
+      "jackpot": "Trúng thưởng lớn",
+      "gashapon": "Máy quay thưởng",
       "drawLots": "Rút thăm",
       "scratchOff": "Cào trúng thưởng"
     },
@@ -7768,10 +7768,10 @@
     "preview": {
       "start": "Bắt đầu",
       "shareWithFriends": "Chia sẻ với bạn bè",
-      "jackpotHeader": "JACKPOT",
-      "jackpotBanner": "Jackpot",
+      "jackpotHeader": "TRÚNG THƯỞNG LỚN",
+      "jackpotBanner": "Trúng thưởng lớn",
       "luckyWheelHeader": "VÒNG QUAY MAY MẮN",
-      "gashaponHeader": "GASHAPON",
+      "gashaponHeader": "MÁY QUAY THƯỞNG",
       "drawLotsHeader": "RÚT THĂM",
       "scratchOffHeader": "CÀO TRÚNG THƯỞNG",
       "scratchOffCardTitle": "Vé cào ngôi sao may mắn",
@@ -7809,7 +7809,7 @@
       "maxSharesPerPerson": "Số lượt thưởng tối đa từ giới thiệu",
       "maxSharesPerPersonHint": "Mỗi người bạn tham gia qua link mời của người chơi này và nhắn tin cho bạn sẽ giúp họ nhận thêm 1 lượt, tối đa bằng giới hạn này. Đặt 0 để tắt thưởng giới thiệu. Lượt thưởng phải dùng trước lần đặt lại kế tiếp.",
       "sharingNode": "Bước chia sẻ",
-      "sharingNodeHint": "Bước flow sẽ chạy khi một người bạn mở link chia sẻ của người chơi này. Để trống để ẩn nút Chia sẻ.",
+      "sharingNodeHint": "Bước kịch bản sẽ chạy khi một người bạn mở link chia sẻ của người chơi này. Để trống để ẩn nút Chia sẻ.",
       "resetPolicyLabel": "Đặt lại lượt quay",
       "resetNever": "Không đặt lại số lượt quay",
       "resetEveryNDays": "Đặt lại số lượt quay mỗi",
@@ -8155,7 +8155,7 @@
     },
     "panel": {
       "title": "Điều phối hội thoại",
-      "threadState": "Trạng thái luồng",
+      "threadState": "Trạng thái hội thoại",
       "threadStateOwned": "Đang được giữ",
       "threadStateStandby": "Chế độ chờ",
       "threadStateIdle": "Chưa ai giữ",
@@ -8172,15 +8172,15 @@
       "syncOwnerSuccess": "Đã đồng bộ chủ sở hữu"
     },
     "settings": {
-      "title": "Kịch bản tiếp nhận khi nhận quyền (Handover Resume Flow)",
+      "title": "Kịch bản tiếp tục sau khi chuyển quyền",
       "description": "Hành động tự động khi nhận sự kiện bàn giao từ đối tác.",
       "resumeFlowLabel": "Chọn kịch bản",
       "resumeFlowPlaceholder": "Chọn một kịch bản",
       "info": "Kịch bản này sẽ tự động khởi chạy khi quyền điều khiển được chuyển về. Hệ thống sẽ tự động hiển thị tóm tắt cuộc trò chuyện và lịch sử chat trên LiveChat cho nhân viên.",
       "save": "Lưu cấu hình",
-      "clearFlow": "Xóa luồng",
+      "clearFlow": "Xóa kịch bản",
       "adminOnly": "Chỉ quản trị viên workspace mới có thể thay đổi điều phối",
-      "flowNotFound": "Không tìm thấy luồng đã chọn hoặc luồng chưa hoạt động",
+      "flowNotFound": "Không tìm thấy kịch bản đã chọn hoặc kịch bản chưa hoạt động",
       "integrationNotFound": "Không tìm thấy số WhatsApp",
       "messengerIntegrationNotFound": "Không tìm thấy trang Messenger"
     },
@@ -8200,21 +8200,21 @@
     }
   },
   "miniApps": {
-    "title": "Mini Apps",
-    "description": "Tạo form theo chuẩn WhatsApp Flows và chia sẻ bằng link trên mọi kênh.",
-    "feature": "Mini App",
-    "deleteWhatsappChoice": "“Xoá” giữ lại các Flow đã đẩy lên WhatsApp. “Xoá kèm WhatsApp Flow” gỡ luôn chúng trên Meta: Flow nháp bị xoá, Flow đã đăng bị ngừng dùng vì Meta không cho xoá.",
-    "deleteWhatsappFailed": "Đã xoá Mini App, nhưng không gỡ được {count} WhatsApp Flow trên Meta. Hãy gỡ tay trong WhatsApp Manager.",
-    "deleteWithWhatsapp": "Xoá kèm WhatsApp Flow",
+    "title": "Ứng dụng nhỏ",
+    "description": "Tạo biểu mẫu kịch bản WhatsApp và chia sẻ liên kết trên mọi kênh.",
+    "feature": "Ứng dụng nhỏ",
+    "deleteWhatsappChoice": "“Xóa” giữ lại các kịch bản đã xuất bản trên WhatsApp. “Xóa kèm kịch bản WhatsApp” cũng gỡ chúng khỏi Meta: bản nháp bị xóa, còn bản đã xuất bản bị ngừng sử dụng vì Meta không cho phép xóa.",
+    "deleteWhatsappFailed": "Đã xóa ứng dụng nhỏ nhưng không gỡ được {count} kịch bản WhatsApp trên Meta. Hãy gỡ thủ công trong WhatsApp Manager.",
+    "deleteWithWhatsapp": "Xóa kèm kịch bản WhatsApp",
     "publicUrl": {
       "label": "URL công khai",
-      "hint": "Sao chép URL này và dán vào flow, broadcast hoặc sequence. Gửi theo cách đó, mỗi câu trả lời sẽ gắn với contact đã mở link."
+      "hint": "Sao chép URL này và đưa vào kịch bản, đợt gửi tin hàng loạt hoặc chuỗi tin nhắn chăm sóc. Khi khách mở liên kết, câu trả lời của họ sẽ được gắn với đúng liên hệ."
     },
     "table": {
       "whatsapp": "WhatsApp",
       "notPublished": "Chưa đẩy lên",
       "submissions": "Câu trả lời",
-      "copyJson": "Copy JSON"
+      "copyJson": "Sao chép JSON"
     },
     "submissions": {
       "title": "Câu trả lời",
@@ -8256,7 +8256,7 @@
       "title": "Màn hình",
       "screenTitle": "Tiêu đề",
       "screenId": "Mã màn hình",
-      "screenIdHint": "Chỉ dùng chữ cái và dấu gạch dưới. Dùng cho điều hướng và trong Flow JSON.",
+      "screenIdHint": "Chỉ sử dụng chữ cái và dấu gạch dưới. Dùng để điều hướng và trong JSON kịch bản.",
       "remove": "Xoá màn hình"
     },
     "inspector": {
@@ -8274,7 +8274,7 @@
       "noAction": "Không có hành động",
       "chooseAction": "Chọn hành động",
       "noOtherScreen": "Hãy thêm một màn hình khác để chuyển tới.",
-      "completeHint": "Kết thúc flow và gửi toàn bộ câu trả lời.",
+      "completeHint": "Kết thúc kịch bản và gửi toàn bộ câu trả lời.",
       "endText": "Chữ bên phải",
       "badge": "Nhãn",
       "conditionHint": "Hiện nhánh “Nếu đúng” khi điều kiện đúng, ngược lại hiện nhánh còn lại. Ví dụ: {example}",
@@ -8295,25 +8295,25 @@
       "variablesHint": "Gõ {open} hoặc bấm {button} để chèn custom field. Giá trị chỉ hiện trên link web khi biết khách là ai."
     },
     "json": {
-      "title": "Flow JSON",
-      "description": "WhatsApp Flow JSON (phiên bản 7.3). Có thể dán vào WhatsApp Manager hoặc Flows Playground.",
-      "copy": "Copy JSON",
+      "title": "JSON kịch bản",
+      "description": "JSON kịch bản WhatsApp (phiên bản 7.3). Có thể dán vào WhatsApp Manager hoặc công cụ Flows Playground.",
+      "copy": "Sao chép JSON",
       "contactVariablesWarning": "JSON này vẫn còn custom field như '{{first_name}}'. WhatsApp sẽ hiện nguyên văn, nên hãy xóa chúng trước khi dán vào WhatsApp."
     },
     "publish": {
       "open": "Đẩy lên WhatsApp",
       "title": "Đẩy lên WhatsApp",
-      "description": "Tạo hoặc cập nhật Mini App này thành một WhatsApp Flow và publish. Sau đó có thể gửi bằng bước “Gửi WhatsApp Flow”.",
+      "description": "Tạo hoặc cập nhật ứng dụng nhỏ này thành kịch bản WhatsApp và xuất bản. Sau đó, bạn có thể gửi bằng bước “Gửi kịch bản WhatsApp”.",
       "number": "Số WhatsApp",
       "noNumbers": "Hãy kết nối một số WhatsApp trước.",
       "unsavedChanges": "Bạn có thay đổi chưa lưu. Hãy lưu trước để WhatsApp nhận bản mới nhất.",
       "submit": "Đẩy lên",
       "success": "Đã đẩy lên WhatsApp",
-      "draftOnly": "Meta giữ Flow ở trạng thái nháp vì còn lỗi",
+      "draftOnly": "Meta giữ Kịch bản ở trạng thái nháp vì còn lỗi",
       "failed": "Không đẩy lên WhatsApp được",
       "contactVariables": "Mini App này đang chèn custom field vào chữ. Hiện custom field chỉ chạy trên link web — hãy bỏ chúng trước khi đẩy lên WhatsApp.",
       "notOnNumber": "Mini App chưa có trên số WhatsApp này.",
-      "onlyDraftDeletable": "Flow đang chạy thật trên Meta nên không xoá được. Chỉ xoá được bản nháp.",
+      "onlyDraftDeletable": "Kịch bản đang chạy thật trên Meta nên không xoá được. Chỉ xoá được bản nháp.",
       "flowIsLive": "Mini App đang chạy trên số WhatsApp này. Lưu nháp sẽ làm nó ngừng chạy — hãy bấm “Đẩy lên” để cập nhật.",
       "saveDraft": "Lưu nháp",
       "draftSaved": "Đã lưu lên WhatsApp dưới dạng nháp",
@@ -8383,16 +8383,16 @@
       "DocumentPicker": "Tải tài liệu",
       "Image": "Ảnh",
       "ImageCarousel": "Băng chuyền ảnh",
-      "EmbeddedLink": "Link",
+      "EmbeddedLink": "Liên kết",
       "NavigationList": "Danh sách điều hướng",
       "Footer": "Nút cuối màn hình",
-      "Form": "Form",
+      "Form": "Biểu mẫu",
       "If": "Nếu / Ngược lại",
       "Switch": "Theo trường hợp"
     },
     "actions": {
       "navigate": "Chuyển sang màn hình",
-      "complete": "Hoàn tất flow",
+      "complete": "Hoàn tất kịch bản",
       "open_url": "Mở link"
     },
     "defaults": {
@@ -8521,13 +8521,13 @@
       "screen_id_invalid": "Mã màn hình chỉ được chứa chữ cái và dấu gạch dưới.",
       "screen_id_reserved": "“SUCCESS” là tên WhatsApp đã giữ riêng. Hãy chọn mã khác.",
       "screen_id_duplicate": "Một màn hình khác đã dùng mã này.",
-      "no_terminal_screen": "Hãy thêm Footer kết thúc flow vào màn hình cuối.",
+      "no_terminal_screen": "Hãy thêm Footer kết thúc kịch bản vào màn hình cuối.",
       "screen_without_exit": "Màn hình này không có cách đi tiếp. Hãy thêm nút Footer hoặc link chuyển sang màn hình khác.",
       "screen_unreachable": "Không có màn hình nào chuyển tới màn hình này.",
       "too_many_components": "Mỗi màn hình chứa tối đa {max} thành phần.",
       "component_limit": "Mỗi màn hình chứa tối đa {max} {type}.",
       "picker_conflict": "Một màn hình không thể có cả tải ảnh và tải tài liệu.",
-      "picker_multiple_in_complete": "Hãy đặt {property} là 1: WhatsApp chỉ gửi một file khi hoàn tất flow.",
+      "picker_multiple_in_complete": "Hãy đặt {property} là 1: WhatsApp chỉ gửi một file khi hoàn tất kịch bản.",
       "footer_not_last": "Nút Footer phải là thành phần cuối cùng của màn hình.",
       "footer_in_nested_branch": "Nút Footer chỉ được đặt trực tiếp trong nhánh của khối If cấp ngoài cùng.",
       "footer_missing_in_branch": "Nếu một nhánh có nút Footer thì nhánh còn lại cũng phải có.",
@@ -8615,7 +8615,7 @@
       "tiktok": "TikTok",
       "threads": "Threads",
       "email": "Email SMTP",
-      "gamification": "Gamification"
+      "gamification": "Trò chơi tương tác"
     },
     "list": {
       "campaign": "Chiến dịch",
@@ -8647,7 +8647,7 @@
       "publishTitle": "Xuất bản bảng xếp hạng này?",
       "publishDescription": "Việc tính điểm bắt đầu ngay và người chơi có thể xem trang công khai.",
       "pauseTitle": "Tạm dừng bảng xếp hạng này?",
-      "pauseDescription": "Việc tính điểm tự động và qua flow sẽ dừng lại. Bạn vẫn có thể chỉnh điểm thủ công.",
+      "pauseDescription": "Việc tính điểm tự động và qua kịch bản sẽ dừng lại. Bạn vẫn có thể chỉnh điểm thủ công.",
       "startTitle": "Tiếp tục bảng xếp hạng này?",
       "startDescription": "Việc tính điểm sẽ chạy lại cho mọi quy tắc.",
       "finishTitle": "Kết thúc bảng xếp hạng này?",
@@ -8671,10 +8671,10 @@
     },
     "rewards": {
       "title": "Gửi phần thưởng",
-      "description": "Gửi flow phần thưởng cho những người chơi đứng đầu. Phần thưởng chỉ có thể gửi một lần.",
-      "flow": "Flow phần thưởng",
+      "description": "Gửi kịch bản phần thưởng cho những người chơi đứng đầu. Phần thưởng chỉ có thể gửi một lần.",
+      "flow": "Kịch bản phần thưởng",
       "topN": "Số người thắng (top N)",
-      "noFlow": "Chưa chọn flow phần thưởng — hãy chọn trong phần cài đặt bảng xếp hạng.",
+      "noFlow": "Chưa chọn kịch bản phần thưởng — hãy chọn trong phần cài đặt bảng xếp hạng.",
       "alreadySent": "Phần thưởng đã được gửi cho bảng xếp hạng này.",
       "confirm": "Gửi phần thưởng",
       "result": "Đã gửi cho {sent} người thắng, bỏ qua {skipped} người (chưa có cuộc trò chuyện trên kênh này)."
@@ -8726,15 +8726,15 @@
       "resetTimeHint": "Giới hạn hằng ngày được làm mới vào giờ này. = {time} giờ Việt Nam (UTC+7).",
       "cooldown": "Thời gian chờ chống spam (giây)",
       "cooldownHint": "Số giây tối thiểu giữa hai lần cộng điểm tự động cho cùng một người. Nhập 0 để tắt.",
-      "referralFlow": "Flow chào mừng giới thiệu",
+      "referralFlow": "Kịch bản chào mừng giới thiệu",
       "referralFlowAuto": "Tạo tự động",
-      "referralFlowHint": "Được gửi cho người bạn tham gia qua liên kết giới thiệu. Có thể dùng '{{referral_name}}' và liên kết bảng xếp hạng công khai. Để trống để tự tạo một tin nhắn chào mừng mà bạn có thể chỉnh sửa trong Flow Builder.",
+      "referralFlowHint": "Gửi cho người bạn tham gia qua liên kết giới thiệu. Có thể dùng '{{referral_name}}' và liên kết bảng xếp hạng công khai. Để trống để tự tạo tin nhắn chào mừng có thể chỉnh sửa trong trình dựng kịch bản.",
       "publicLink": "Liên kết công khai",
-      "publicLinkHint": "Gửi liên kết này từ một flow để mỗi người chơi thấy thứ hạng của riêng mình.",
+      "publicLinkHint": "Gửi liên kết này từ một kịch bản để mỗi người chơi thấy thứ hạng của riêng mình.",
       "publicLinkAfterSave": "Liên kết công khai sẽ có sau khi lưu.",
       "rewardsTitle": "Phần thưởng",
       "autoOnFinish": "Tự động gửi khi kết thúc",
-      "autoOnFinishHint": "Chạy flow phần thưởng cho top N ngay khi bảng xếp hạng kết thúc.",
+      "autoOnFinishHint": "Chạy kịch bản phần thưởng cho top N ngay khi bảng xếp hạng kết thúc.",
       "backToStep2": "Quay lại bước 2",
       "notEditable": "Không thể chỉnh sửa bảng xếp hạng đã kết thúc."
     },
@@ -8778,7 +8778,7 @@
         "description": "Điểm cho mỗi bình luận trong lúc livestream."
       },
       "keywords": {
-        "label": "Keywords",
+        "label": "Từ khóa",
         "description": "Điểm khi tin nhắn khớp với bất kỳ từ khóa nào trong công cụ Keywords của kênh này."
       },
       "storyMention": {
@@ -8795,7 +8795,7 @@
       },
       "survey": {
         "label": "Khảo sát & câu đố",
-        "description": "Điểm khi hoàn thành một Questionnaire hoặc gửi biểu mẫu WhatsApp Flow."
+        "description": "Điểm khi hoàn thành một Questionnaire hoặc gửi biểu mẫu kịch bản WhatsApp."
       },
       "follow": {
         "label": "Theo dõi OA & QR",
@@ -8851,7 +8851,7 @@
       "minigameWin": "{count} lượt thắng",
       "inGameShare": "{count} lượt chia sẻ",
       "referral": "{count} lượt giới thiệu",
-      "flow": "{count} flow",
+      "flow": "{count} kịch bản",
       "manual": "{count} thủ công"
     },
     "participants": {
@@ -8903,7 +8903,7 @@
         "empty": "Chưa có thay đổi điểm nào.",
         "sources": {
           "rule": "Quy tắc",
-          "flow": "Flow",
+          "flow": "Kịch bản",
           "referral": "Giới thiệu",
           "manual": "Chỉnh thủ công",
           "reset": "Đặt lại"
