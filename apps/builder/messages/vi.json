@@ -181,7 +181,7 @@
   "aiAgent": {
     "defaultAgent": "Agent mặc định",
     "description": "Quản lý và cấu hình các trợ lý AI, nâng cao hiệu quả tự động hóa và trả lời thông minh trong không gian làm việc.",
-    "title": "các trợ lý AI",
+    "title": "Các trợ lý AI",
     "name": "Trợ lý AI"
   },
   "aiAgentActions": {
@@ -1364,11 +1364,11 @@
     },
     "defaultReply": {
       "description": "Đây là phản hồi mặc định mà workspace của bạn sẽ gửi cho người dùng khi workspace không biết cách trả lời tin nhắn của người dùng.",
-      "label": "Trả lời mặc định"
+      "label": "Tin nhắn mặc định"
     },
     "defaultReplyFrequency": {
-      "description": "Kiểm soát tần suất kịch bản Trả lời mặc định có thể được kích hoạt cho cùng một liên hệ trên một kênh.",
-      "label": "Tần suất trả lời mặc định",
+      "description": "Kiểm soát tần suất kích hoạt kịch bản Tin nhắn mặc định cho cùng một khách hàng trên một kênh.",
+      "label": "Tần suất kích hoạt tin nhắn mặc định",
       "options": {
         "allTime": "Mọi lúc",
         "oncePerHour": "Một lần mỗi 1h",
@@ -3523,7 +3523,7 @@
     "title": "Make",
     "setting": {
       "label": "Make",
-      "description": "Kết nối tài khoản Make.com để gửi sự kiện từ kịch bản của bạn và nhận dữ liệu contact qua scenario của Make.",
+      "description": "Kết nối tài khoản Make.com để gửi sự kiện từ các kịch bản và nhận dữ liệu liên hệ qua các tình huống tự động hóa trên Make.",
       "notConfigured": "Chưa tìm thấy link mời Make. Vui lòng thêm trong Cài đặt Nền tảng."
     }
   },
@@ -4151,7 +4151,7 @@
     "title": "Cài đặt",
     "agents": {
       "description": "Mô tả các trợ lý AI",
-      "title": "các trợ lý AI"
+      "title": "Các trợ lý AI"
     },
     "automatedResponses": {
       "title": "Phản hồi tự động"
@@ -5429,7 +5429,7 @@
     "timeValidation": "Thời gian tin nhắn này phải sau tin nhắn trước",
     "validation": {
       "exception": "Lỗi xác thực",
-      "nameExists": "Tên chuỗi chăm sóc đã tồn tại"
+      "nameExists": "Tên chuỗi tin nhắn chăm sóc đã tồn tại"
     },
     "sendLabel": "Gửi",
     "selectFlowFirst": "Vui lòng chọn kịch bản trước khi bật tin nhắn",
@@ -5446,13 +5446,13 @@
     "allDay": "Cả ngày",
     "customTime": "Tùy chỉnh thời gian",
     "enrollmentSettings": "Cài đặt đăng ký",
-    "enrollmentDescription": "Kiểm soát cách liên hệ được đăng ký vào chuỗi chăm sóc này",
+    "enrollmentDescription": "Kiểm soát cách khách hàng được thêm vào chuỗi tin nhắn chăm sóc này",
     "allowReEnrollment": "Cho phép đăng ký lại",
     "allowReEnrollmentDescription": "Liên hệ có thể được đăng ký nhiều lần",
     "skipWeekends": "Bỏ qua cuối tuần",
     "skipWeekendsDescription": "Không gửi tin nhắn vào thứ Bảy và Chủ Nhật",
     "unenrollOnReply": "Hủy đăng ký khi trả lời",
-    "unenrollOnReplyDescription": "Xóa liên hệ khỏi chuỗi chăm sóc khi họ trả lời",
+    "unenrollOnReplyDescription": "Gỡ khách hàng khỏi chuỗi tin nhắn chăm sóc khi họ trả lời",
     "performance": "Hiệu suất",
     "enrolled": "Đã đăng ký",
     "stats": {
@@ -5495,7 +5495,7 @@
     "saturday": "Thứ Bảy",
     "sunday": "Chủ Nhật",
     "afterText": "Sau",
-    "title": "Chăm sóc"
+    "title": "Chuỗi tin nhắn chăm sóc"
   },
   "tools": {
     "title": "Công cụ",
@@ -6105,9 +6105,9 @@
     "connectionType": {
       "title": "Chọn loại kết nối Instagram",
       "instagramTitle": "Instagram Business",
-      "instagramDescription": "Kết nối bằng Instagram Login. Hỗ trợ trả lời qua văn bản, kịch bản, hoặc AI agent.",
+      "instagramDescription": "Kết nối qua Instagram Login. Hỗ trợ trả lời bằng văn bản, kịch bản hoặc trợ lý AI.",
       "instagramFacebookTitle": "Instagram Login qua Facebook",
-      "instagramFacebookDescription": "Instagram được kết nối qua một trang Facebook. Hỗ trợ trả lời qua văn bản, kịch bản, hoặc AI agent."
+      "instagramFacebookDescription": "Instagram được kết nối qua Trang Facebook. Hỗ trợ trả lời bằng văn bản, kịch bản hoặc trợ lý AI."
     }
   },
   "facebookLeadAdsAutomation": {
